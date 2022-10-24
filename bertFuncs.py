@@ -3,6 +3,7 @@ import torch
 import pickle
 from transformers import BertTokenizerFast, BertModel
 from scipy import linalg
+from collections import defaultdict
 
 
 
@@ -60,7 +61,7 @@ def getW(antonym_path):
       axisList.append(antony[2])
   else:
     # Case [direction1, direction2]
-    print(len(curAntonyms))
+    #print(len(curAntonyms))
     axisList=curAntonyms#[0:768] #1763 pairs
   W = np.matrix(axisList)
 
@@ -86,6 +87,9 @@ def printMeaningOfWord(word_embedding, antonym_path, numberPolar, definition_pat
 
   axis_list=[]
   # Retrieve and print top-numberPolar dimensions
+
+  dic = defaultdict(int)
+
   for i in range(0, numberPolar):
     cur_Index = sortedDic[i][0]
     cur_value = sortedDic[i][1]
@@ -100,22 +104,26 @@ def printMeaningOfWord(word_embedding, antonym_path, numberPolar, definition_pat
     axis_list.append(axis)
 
     # Print
-    print("Top: ", i)
-    print("Dimension: ", leftPolar + "<------>"+ rightPolar)
-    print("Definitions: ", leftDefinition+ "<------>"+ rightDefinition)
-    if cur_value <0:
-      print("Value: " + str(cur_value))
-    else:
-      print("Value:                      " + str(cur_value))
-    print("\n")
-  return axis_list
+    #print("Top: ", i)
+    #print("Dimension: ", leftPolar + "<------>"+ rightPolar)
+    #print("Definitions: ", leftDefinition+ "<------>"+ rightDefinition)
+    #if cur_value <0:
+    #  print("Value: " + str(cur_value))
+    #else:
+    #  print("Value:                      " + str(cur_value))
+    #print("\n")
+
+    dic[cur_Index] = [leftPolar, rightPolar, cur_value]
+
+
+  return dic
 
 
 
 
 
 
-def analyzeWord(cur_word, context, model=None,tokenizer=None, antonym_path="", normalize_term_path="antonyms/wordnet_normalize.pkl",numberPolar=5):
+def analyzeWord(cur_word, context, model=None,tokenizer=None, antonym_path="/Users/Jeff/Desktop/SensePOLAR_Firm_Biases/downstream_tasks/GLUE/models/ability_dict/Polar/polar_dimensions.pkl", normalize_term_path="antonyms/wordnet_normalize.pkl",numberPolar=5):
   """ Prints out the top POLAR_C dimensions of a given word in a given context
 
   Args:
@@ -132,8 +140,8 @@ def analyzeWord(cur_word, context, model=None,tokenizer=None, antonym_path="", n
       list: of the top-numberPolar dimensions of the word.
   """
 
-  print("Analyzing the word: ", cur_word)
-  print("In the context of: ", context)
+  #print("Analyzing the word: ", cur_word)
+  #print("In the context of: ", context)
 
   if cur_word not in context.split(" "):
     print("Warning:")
@@ -185,7 +193,7 @@ def analyzeWord(cur_word, context, model=None,tokenizer=None, antonym_path="", n
     print(polar_emb.shape)
 
 
-  return axis_list #, polar_emb_np
+  return axis_list
 
 
 

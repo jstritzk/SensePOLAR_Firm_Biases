@@ -1,0 +1,9 @@
+,Value 1,0,1,Value 2,female-male,tuple
+5,-0.13870518,creative,uncreative,-0.13197649,0.006728694,"('creative', 'uncreative')"
+3,0.10056364,able,unable,0.117980056,0.017416418,"('able', 'unable')"
+6,-0.06494792,capable,incapable,-0.073772565,-0.0088246465,"('capable', 'incapable')"
+2,0.038852938,intelligent,stupid,0.003829666,-0.035023272,"('intelligent', 'stupid')"
+4,-0.029040692,rational,irrational,-0.027987355,0.001053337,"('rational', 'irrational')"
+7,-0.02889248,practical,impractical,-0.01600625,0.01288623,"('practical', 'impractical')"
+1,0.022408795,intelligent,unintelligent,0.024251685,0.0018428899,"('intelligent', 'unintelligent')"
+0,0.021540528,competent,incompetent,0.016095294,-0.0054452345,"('competent', 'incompetent')"

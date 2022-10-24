@@ -619,7 +619,7 @@ def initCustomModel(original_model, new_model_path, task):
 
 
 if __name__ == "__main__":
-  task = "stsb"
+  task = "ability_dict"
   original_model="downstream_tasks/GLUE/models/"+str(task)+"/Baseline/"
   new_model_path="downstream_tasks/GLUE/models/"+str(task)+"/Polar/"
   import os
@@ -627,7 +627,7 @@ if __name__ == "__main__":
     os.makedirs(new_model_path)
 
   task="SequenceClassification"
-  initCustomModel(original_model, new_model_path, task)
+  initCustomModel("bert-base-uncased", new_model_path, task)
 
 
 
