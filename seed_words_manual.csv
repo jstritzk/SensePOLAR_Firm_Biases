@@ -1,0 +1,347 @@
+;Dictionary;term;term preproc;PoS;sense;Dir;Synset;Antonyms;Definition;Examples;Sentence_Check
+0;Sociability;sociable;sociable;ADJECTIVE;1;high;sociable.a.01;unsociable.a.01;inclined to or conducive to companionship with others;a sociable occasion;True
+1;Sociability;unsociable;unsociable;ADJECTIVE;1;low;unsociable.a.01;sociable.a.01;not inclined to society or companionship;an unsociable nature...shy and reserved;True
+2;Sociability;friendly;friendly;ADJECTIVE;1;high;friendly.a.01;unfriendly.a.02;characteristic of or befitting a friend;friendly advice;True
+3;Sociability;friendly;friendly;ADJECTIVE;2;high;friendly.s.02;unfriendly.s.03;"inclined to help or support; not antagonistic or hostile";a government friendly to our interests;True
+4;Sociability;unfriendly;unfriendly;ADJECTIVE;2;low;unfriendly.a.02;friendly.a.01;not disposed to friendship or friendliness;an unfriendly coldness of manner;True
+5;Sociability;unfriendly;unfriendly;ADJECTIVE;3;low;unfriendly.s.03;friendly.s.02;not friendly;an unfriendly act of aggression;True
+6;Sociability;cold;cold;ADJECTIVE;2;low;cold.a.02;hot.a.03;"extended meanings; especially of psychological coldness; without human warmth or emotion";a cold unfriendly nod;True
+7;Sociability;warm;warm;ADJECTIVE;2;high;warm.a.02;cool.a.04;"psychologically warm; friendly and responsive";a warm greeting;True
+8;Sociability;likable;likable;ADJECTIVE;1;high;sympathetic.a.04;unsympathetic.a.02;(of characters in literature or drama) evoking empathic or sympathetic feelings;this is the person who is very relational and warm is likable;False
+9;Sociability;likable;likable;ADJECTIVE;2;high;likable.s.02;unlikable.s.02;"easy to like; agreeable";an attractive and likable young man;True
+10;Sociability;repellent;repellent;ADJECTIVE;1;low;rebarbative.s.01;pleasant.s.02;serving or tending to repel;he became repellent and prickly and spiteful;False
+11;Sociability;pleasant;pleasant;ADJECTIVE;2;high;pleasant.s.02;rebarbative.s.01;(of persons) having pleasing manners or behavior;I didn't enjoy it and probably wasn't a pleasant person to be around;True
+12;Sociability;unpleasant;unpleasant;ADJECTIVE;1;low;unpleasant.a.01;pleasant.a.01;disagreeable to the senses, to the mind, or feelings;an unpleasant personality;True
+13;Sociability;unlikable;unlikable;ADJECTIVE;1;low;unsympathetic.a.02;sympathetic.a.04;(of characters in literature or drama) tending to evoke antipathetic feelings;all the characters were peculiarly unlikable;False
+14;Sociability;unlikable;unlikable;ADJECTIVE;2;low;unlikable.s.02;likable.s.02;difficult or impossible to like;a disagreeable and unlikable old woman;True
+15;Sociability;liked;liked;ADJECTIVE;1;high;liked.a.01;disliked.a.01;"found pleasant or attractive; often used as a combining form";a well liked teacher;False
+16;Sociability;disliked;disliked;ADJECTIVE;1;low;disliked.a.01;liked.a.01;regarded with aversion;he was intensely disliked;True
+17;Sociability;outgoing;outgoing;ADJECTIVE;3;high;extroverted.s.02;aloof.s.01;at ease in talking to others;she's always been very outgoing and she's got heaps of friends;True
+18;Sociability;shy;shy;ADJECTIVE;1;low;diffident.a.02;confident.a.01;lacking self-confidence;stood in the doorway diffident and shy;False
+19;Sociability;sensitive;sensitive;ADJECTIVE;2;high;sensitive.a.02;insensitive.a.02;being susceptible to the attitudes, feelings, or circumstances of others;sensitive to the local community and its needs;True
+20;Sociability;insensitive;insensitive;ADJECTIVE;2;low;insensitive.a.02;sensitive.a.02;"deficient in human sensibility; not mentally or morally sensitive";insensitive to the needs of the patients;True
+21;Sociability;affectionate;affectionate;ADJECTIVE;1;high;affectionate.s.01;detached.s.05;having or displaying warmth or affection;affectionate children;True
+22;Sociability;unaffectionate;unaffectionate;ADJECTIVE;1;low;detached.s.05;affectionate.s.01;lacking affection or warm feeling;an uncaring unaffectionate person;False
+23;Sociability;distant;distant;ADJECTIVE;3;low;aloof.s.01;extroverted.s.02;remote in manner;they were distant, even cool towards them;False
+24;Sociability;unreserved;unreserved;ADJECTIVE;2;high;unreserved.a.02;reserved.a.02;not cautious or reticent;unreserved behavior;True
+25;Sociability;open;open;ADJECTIVE;20;high;candid.s.03;aloof.s.01;openly straightforward and direct without reserve or secretiveness;they are pretty open and outgoing;False
+26;Sociability;caring;caring;ADJECTIVE;1;high;caring.s.01;detached.s.05;feeling and exhibiting concern and empathy for others;caring friends;True
+27;Sociability;uncaring;uncaring;ADJECTIVE;1;low;detached.s.05;caring.s.01;lacking affection or warm feeling;an uncaring person;True
+28;Sociability;sympathetic;sympathetic;ADJECTIVE;2;high;sympathetic.a.02;unsympathetic.a.01;"expressing or feeling or resulting from sympathy or compassion or friendly fellow feelings; disposed toward";sympathetic to the students' cause;True
+29;Sociability;sympathetic;sympathetic;ADJECTIVE;3;high;charitable.s.03;unkindly.s.01;showing or motivated by sympathy and understanding and generosity;was sympathetic in his opinions of others;False
+30;Sociability;sympathetic;sympathetic;ADJECTIVE;4;high;sympathetic.a.04;unsympathetic.a.02;(of characters in literature or drama) evoking empathic or sympathetic feelings;the sympathetic characters in the play;True
+31;Sociability;unsympathetic;unsympathetic;ADJECTIVE;2;low;unsympathetic.a.02;sympathetic.a.04;(of characters in literature or drama) tending to evoke antipathetic feelings;all the characters were peculiarly unsympathetic;True
+32;Sociability;unsympathetic;unsympathetic;ADJECTIVE;4;low;unkindly.s.01;charitable.s.03;lacking in sympathy and kindness;But their nature was cold, unsympathetic and calculating;False
+33;Sociability;helpful;helpful;ADJECTIVE;1;high;helpful.a.01;unhelpful.a.01;providing assistance or serving a useful function;people are friendly and helpful;True
+34;Sociability;unhelpful;unhelpful;ADJECTIVE;1;low;unhelpful.a.01;helpful.a.01;providing no assistance;several complained that the staff were unhelpful;True
+35;Sociability;understanding;understanding;ADJECTIVE;1;high;understanding.s.01;;characterized by understanding based on comprehension and discernment and empathy;an understanding friend;True
+36;Sociability;supportive;supportive;ADJECTIVE;1;high;supportive.a.01;unsupportive.a.01;furnishing support or assistance;a supportive family network;True
+37;Sociability;unsupportive;unsupportive;ADJECTIVE;1;low;unsupportive.a.01;supportive.a.01;not furnishing support or assistance;the family environment is unsupportive;True
+38;Sociability;polite;polite;ADJECTIVE;1;high;polite.a.01;impolite.a.01;showing regard for others in manners, speech, behavior, etc.;they thought she was wrong but were too polite to say so;True
+39;Sociability;impolite;impolite;ADJECTIVE;1;low;impolite.a.01;polite.a.01;not polite;it would have been impolite to refuse;True
+40;Sociability;aloof;aloof;ADJECTIVE;1;low;aloof.s.01;candid.s.03;remote in manner;stood apart with aloof dignity;True
+41;Sociability;civil;civil;ADJECTIVE;2;high;civil.a.02;uncivil.a.01;"not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others; - W.S. Maugham";even if he didn't like them he should have been civil;True
+42;Sociability;rude;rude;ADJECTIVE;1;low;ill-mannered.s.01;;socially incorrect in behavior;I'm sorry I was rude to you;False
+43;Sociability;antisocial;antisocial;ADJECTIVE;1;low;antisocial.s.01;social.s.04;shunning contact with others;standoffish and antisocial;True
+44;Sociability;antisocial;antisocial;ADJECTIVE;2;low;antisocial.s.02;social.s.05;hostile to or disruptive of normal standards of social behavior;criminal behavior or conduct that violates the rights of other individuals is antisocial;True
+45;Sociability;social;social;ADJECTIVE;4;high;social.s.04;antisocial.s.01;composed of sociable people or formed for the purpose of sociability;a purely social club;True
+46;Sociability;social;social;ADJECTIVE;5;high;social.s.05;antisocial.s.02;tending to move or live together in groups or colonies of the same kind;ants are social insects;True
+47;Sociability;social;social;ADJECTIVE;6;high;social.s.06;asocial.s.01;marked by friendly companionship with others;a social cup of coffee;True
+48;Sociability;unsocial;unsocial;ADJECTIVE;1;low;unsocial.a.01;social.a.02;"not seeking or given to association; being or living without companions";the unsocial disposition to neglect one's neighbors;True
+49;Sociability;asocial;asocial;ADJECTIVE;1;low;asocial.s.01;social.s.06;given to avoiding association with others;bears are asocial secretive animals;True
+50;Sociability;asocial;asocial;ADJECTIVE;2;low;antisocial.s.02;;hostile to or disruptive of normal standards of social behavior;criminal behavior or conduct that violates the rights of other individuals is asocial;False
+51;Sociability;humorous;humorou;ADJECTIVE;1;high;humorous.a.01;humorless.a.01;full of or characterized by humor;humorous stories;True
+52;Sociability;funny;funny;ADJECTIVE;1;high;amusing.s.02;boring.s.01;arousing or provoking laughter;an funny film with a steady stream of pranks and pratfalls;False
+53;Sociability;boring;boring;ADJECTIVE;1;low;boring.s.01;amusing.s.02;"so lacking in interest as to cause mental weariness; ; ; ; ; ; - Edmund Burke; ; - Mark Twain";a boring evening with uninteresting people;True
+54;Sociability;popular;popular;ADJECTIVE;1;high;popular.a.01;unpopular.a.01;regarded with great favor, approval, or affection especially by the general public;a popular tourist attraction;True
+55;Sociability;unpopular;unpopular;ADJECTIVE;1;low;unpopular.a.01;popular.a.01;regarded with disfavor or lacking general approval;unpopular ideas;True
+56;Sociability;nice;nice;ADJECTIVE;1;high;nice.a.01;nasty.a.01;"pleasant or pleasing or agreeable in nature or appearance; - George Meredith";what a nice fellow you are and we all thought you so nasty;True
+57;Sociability;nasty;nasty;ADJECTIVE;1;low;nasty.a.01;nice.a.01;"offensive or even (of persons) malicious; ; ; ; ; ; - Ezra Pound";in a nasty mood;True
+58;Sociability;sentimental;sentimental;ADJECTIVE;1;high;sentimental.s.01;;given to or marked by sentiment or sentimentality;she felt a sentimental attachment to the place creep over her;True
+59;Sociability;forthcoming;forthcoming;ADJECTIVE;1;high;extroverted.s.02;;at ease in talking to others;the forthcoming cricket season;True
+60;Sociability;tender;tender;ADJECTIVE;1;high;tender.a.01;tough.a.01;given to sympathy or gentleness or sentimentality;a tender heart;True
+61;Sociability;tender;tender;ADJECTIVE;3;high;tender.s.03;;young and immature;at a tender age;True
+62;Sociability;agreeable;agreeable;ADJECTIVE;1;high;agreeable.a.01;disagreeable.a.01;"conforming to your own liking or feelings or nature; ; ; - Disraeli";Is the plan agreeable to you?;True
+63;Sociability;disagreeable;disagreeable;ADJECTIVE;2;low;disagreeable.s.02;welcoming.s.01;unpleasant to interact with;a disagreeable old man;True
+64;Sociability;rough;rough;ADJECTIVE;2;low;rough.s.02;;(of persons or behavior) lacking refinement or finesse;she was a diamond in the rough;True
+65;Sociability;rough;rough;ADJECTIVE;7;low;pugnacious.s.02;;"ready and able to resort to force or violence; - Herman Melville";pugnacious spirits...lamented that there was so little prospect of an exhilarating disturbance;False
+66;Sociability;rough;rough;ADJECTIVE;13;low;harsh.s.01;;unpleasantly stern;wild and harsh country full of hot sand and cactus;False
+67;Sociability;rough;rough;ADJECTIVE;14;low;harsh.s.04;thoughtful.s.05;unkind or cruel or uncivil;had harsh words;False
+68;Sociability;welcoming;welcoming;ADJECTIVE;1;high;welcoming.s.01;disagreeable.s.02;very cordial;a welcoming smile;True
+69;Sociability;inhospitable;inhospitable;ADJECTIVE;2;low;inhospitable.a.02;hospitable.a.02;not hospitable;they are extremely inhospitable these days;True
+70;Sociability;hospitable;hospitable;ADJECTIVE;2;high;hospitable.a.02;inhospitable.a.02;disposed to treat guests and strangers with cordiality and generosity;a good-natured and hospitable man;True
+71;Sociability;thoughtful;thoughtful;ADJECTIVE;5;high;thoughtful.s.05;harsh.s.04;considerate of the feelings or well-being of others;brows drawn together in thoughtful consideration;True
+72;Sociability;inconsiderate;inconsiderate;ADJECTIVE;1;low;inconsiderate.a.01;considerate.a.01;lacking regard for the rights or feelings of others;shockingly inconsiderate behavior;True
+73;Sociability;timid;timid;ADJECTIVE;1;low;timid.a.01;bold.a.01;showing fear and lack of confidence;I was too timid to ask for what I wanted;True
+74;Sociability;timid;timid;ADJECTIVE;2;low;diffident.a.02;confident.a.01;lacking self-confidence;stood in the doorway diffident and timid;False
+75;Morality;moral;moral;ADJECTIVE;1;high;moral.a.01;immoral.a.01;concerned with principles of right and wrong or conforming to standards of behavior and character based on those principles;moral sense;True
+76;Morality;immoral;immoral;ADJECTIVE;1;low;immoral.a.01;moral.a.01;deliberately violating accepted principles of right and wrong;unseemly and immoral behaviour;True
+77;Morality;immoral;immoral;ADJECTIVE;2;low;base.s.04;honest.s.02;not adhering to ethical or moral principles;base and unpatriotic motives;False
+78;Morality;trustworthy;trustworthy;ADJECTIVE;1;high;trustworthy.a.01;untrustworthy.a.01;worthy of trust or belief;a trustworthy report;True
+79;Morality;untrustworthy;untrustworthy;ADJECTIVE;1;low;untrustworthy.a.01;trustworthy.a.01;not worthy of trust or belief;an untrustworthy person;True
+80;Morality;sincere;sincere;ADJECTIVE;1;high;sincere.a.01;insincere.a.01;"open and genuine; not deceitful";he was a good man, decent and sincere;True
+81;Morality;insincere;insincere;ADJECTIVE;1;low;insincere.a.01;sincere.a.01;lacking sincerity;a charming but thoroughly insincere woman;True
+82;Morality;honest;honest;ADJECTIVE;1;high;honest.a.01;dishonest.a.01;"not disposed to cheat or defraud; not deceptive or fraudulent";honest lawyers;True
+83;Morality;honest;honest;ADJECTIVE;2;high;honest.s.02;base.s.04;"without dissimulation; frank";my honest opinion;True
+84;Morality;honest;honest;ADJECTIVE;3;high;dependable.s.02;corruptible.s.01;worthy of being depended on;a dependable worker;False
+85;Morality;dishonest;dishonest;ADJECTIVE;1;low;dishonest.a.01;honest.a.01;"deceptive or fraudulent; disposed to cheat or defraud or deceive";he was a dishonest hypocrite prepared to exploit his family;True
+86;Morality;dishonest;dishonest;ADJECTIVE;2;low;corruptible.s.01;dependable.s.02;capable of being corrupted;corruptible judges;False
+87;Morality;egoistic;egoistic;ADJECTIVE;1;low;egoistic.a.01;altruistic.a.01;limited to or caring only about yourself and your own needs;they are far too egoistic far too preoccupied with their own taste, which is resolutely hostile to any such utilitarian program;
+88;Morality;altruistic;altruistic;ADJECTIVE;1;high;altruistic.a.01;egoistic.a.01;showing unselfish concern for the welfare of others;it was an entirely altruistic act;True
+89;Morality;selfish;selfish;ADJECTIVE;1;low;selfish.a.01;unselfish.a.01;"concerned chiefly or only with yourself and your advantage to the exclusion of others; - Maria Weston Chapman";selfish men were...trying to make capital for themselves out of the sacred cause of civil rights;False
+90;Morality;selfless;selfles;ADJECTIVE;1;high;altruistic.a.01;egoistic.a.01;showing unselfish concern for the welfare of others;an act of selfless devotion;True
+91;Morality;benevolent;benevolent;ADJECTIVE;1;high;benevolent.a.01;hardhearted.s.02;intending or showing kindness;a benevolent society;True
+92;Morality;benevolent;benevolent;ADJECTIVE;2;high;charitable.s.03;pitiless.s.02;showing or motivated by sympathy and understanding and generosity;was charitable in his opinions of others;False
+93;Morality;benevolent;benevolent;ADJECTIVE;3;high;benevolent.s.03;;generous in providing aid to others;he was something of a benevolent despot;True
+94;Morality;benevolent;benevolent;ADJECTIVE;4;high;beneficent.s.02;;generous in assistance to the poor;a benevolent contributor;True
+95;Morality;hardhearted;hardhearted;ADJECTIVE;1;low;hardhearted.a.01;softhearted.a.01;lacking in feeling or pity or warmth;a cold hardhearted person without feelings;
+96;Morality;hardhearted;hardhearted;ADJECTIVE;2;low;hardhearted.s.02;benevolent.a.01;devoid of feeling for others;an unfeeling wretch;False
+97;Morality;softhearted;softhearted;ADJECTIVE;1;high;softhearted.a.01;hardhearted.a.01;easily moved to pity or sorrow;a softhearted judge;True
+98;Morality;loyal;loyal;ADJECTIVE;1;high;loyal.a.01;disloyal.a.02;steadfast in allegiance or duty;loyal subjects;True
+99;Morality;disloyal;disloyal;ADJECTIVE;2;low;disloyal.a.02;loyal.a.01;deserting your allegiance or duty to leader or cause or principle;disloyal aides revealed his indiscretions to the papers;True
+100;Morality;fair;fair;ADJECTIVE;1;high;fair.a.01;unfair.a.01;"free from favoritism or self-interest or bias or deception; conforming with established standards or rules";a fair referee;True
+101;Morality;unfair;unfair;ADJECTIVE;1;low;unfair.a.01;fair.a.01;"not fair; marked by injustice or partiality or deception";used unfair methods;True
+102;Morality;tolerant;tolerant;ADJECTIVE;1;high;tolerant.a.01;intolerant.a.01;showing respect for the rights or opinions or practices of others;we must be tolerant of others;True
+103;Morality;tolerant;tolerant;ADJECTIVE;2;high;kind.s.03;;tolerant and forgiving under provocation;our neighbor was very kind about the window our son broke;False
+104;Morality;intolerant;intolerant;ADJECTIVE;1;low;intolerant.a.01;tolerant.a.01;unwilling to tolerate difference of opinion;as a society we are more intolerant of certain types of violence than we were in the past;True
+105;Morality;good;good;ADJECTIVE;3;high;good.a.03;evil.a.01;morally admirable;it's good that he's back to his old self;True
+106;Morality;bad;bad;ADJECTIVE;1;low;bad.a.01;good.a.01;having undesirable or negative qualities;a bad report card;True
+107;Morality;virtuous;virtuou;ADJECTIVE;1;high;virtuous.a.01;wicked.a.01;morally excellent;she considered herself very virtuous because she neither drank nor smoked;True
+108;Morality;kind;kind;ADJECTIVE;1;high;kind.a.01;unkind.a.01;"having or showing a tender and considerate and helpful nature; used especially of persons and their behavior";kind to sick patients;True
+109;Morality;unkind;unkind;ADJECTIVE;1;low;unkind.a.01;kind.a.01;lacking kindness;a thoughtless and unkind remark;True
+110;Morality;unkind;unkind;ADJECTIVE;2;low;pitiless.s.02;charitable.s.03;deficient in humane and kindly feelings;you were terribly unkind to her;True
+111;Morality;right;right;ADJECTIVE;3;high;correct.s.02;;socially right or correct;it isn't right to leave the party without saying goodbye;True
+112;Morality;right;right;ADJECTIVE;4;high;right.a.04;wrong.a.02;in conformance with justice or law or morality;do the right thing and confess;True
+113;Morality;wrong;wrong;ADJECTIVE;2;low;wrong.a.02;right.a.04;contrary to conscience or morality or law;it is wrong for the rich to take advantage of the poor;True
+114;Morality;mean;mean;ADJECTIVE;2;low;hateful.s.02;;characterized by malice;a hateful thing to do;False
+115;Morality;mean;mean;ADJECTIVE;3;low;base.s.05;ethical.s.03;"having or showing an ignoble lack of honor or morality; - Edmund Burke; ; - Shakespeare";that liberal obedience without which your army would be a base rabble;False
+116;Morality;honorable;honorable;ADJECTIVE;1;high;honest.a.01;dishonest.a.01;"not disposed to cheat or defraud; not deceptive or fraudulent";you are the strongest, most honorable person I've ever known;False
+117;Morality;honorable;honorable;ADJECTIVE;3;high;ethical.s.03;base.s.05;adhering to ethical and moral principles;it seems ethical and right;False
+118;Morality;dishonorable;dishonorable;ADJECTIVE;1;low;dishonorable.a.01;honorable.a.02;"lacking honor or integrity; deserving dishonor";dishonorable in thought and deed;True
+119;Morality;dishonorable;dishonorable;ADJECTIVE;2;low;dishonest.a.01;honest.a.01;"deceptive or fraudulent; disposed to cheat or defraud or deceive";there are several military discharge types which range from honorable to dishonorable;
+120;Morality;corrupt;corrupt;ADJECTIVE;1;low;corrupt.a.01;incorrupt.a.01;lacking in integrity;the mayor was corrupt and stole from the city's budget;False
+121;Morality;corrupt;corrupt;ADJECTIVE;2;low;crooked.a.02;straight.a.06;"not straight; dishonest or immoral or evasive";unscrupulous logging companies assisted by corrupt officials;True
+122;Morality;incorrupt;incorrupt;ADJECTIVE;1;high;incorrupt.a.01;corrupt.a.01;free of corruption or immorality;a policeman who was incorrupt and incorruptible;True
+123;Morality;criminal;criminal;ADJECTIVE;1;low;condemnable.s.01;;bringing or deserving severe rebuke or censure;a criminal waste of talent;True
+124;Morality;criminal;criminal;ADJECTIVE;2;low;criminal.s.02;;guilty of crime or serious offense;criminal in the sight of God and man;True
+125;Morality;criminal;criminal;ADJECTIVE;3;low;criminal.s.03;;involving or being or having the nature of a crime;a criminal offense;True
+126;Morality;innocent;innocent;ADJECTIVE;1;high;innocent.a.01;guilty.a.01;free from evil or guilt;an innocent child;True
+127;Morality;hostile;hostile;ADJECTIVE;1;low;hostile.a.01;amicable.a.01;characterized by enmity or ill will;a hostile nation;True
+128;Morality;amicable;amicable;ADJECTIVE;1;high;amicable.a.01;hostile.a.01;characterized by friendship and good will;an amicable settlement of the dispute;True
+129;Morality;fake;fake;ADJECTIVE;1;low;bogus.s.01;genuine.s.02;"fraudulent; having a misleading appearance";she got on the plane with a fake passport;True
+130;Morality;genuine;genuine;ADJECTIVE;2;high;genuine.s.02;bogus.s.01;"not pretended; sincerely felt or expressed";genuine emotion;True
+131;Morality;double-faced;doublefaced;ADJECTIVE;2;low;ambidextrous.s.02;;"marked by deliberate deceptiveness especially by pretending one set of feelings and acting under the influence of another; - Israel Zangwill; ; - W.M.Thackeray";she was a deceitful scheming little thing;False
+132;Morality;cunning;cunning;ADJECTIVE;2;low;crafty.s.01;;marked by skill in deception;cunning men often pass for wise;True
+133;Morality;humane;humane;ADJECTIVE;2;high;humane.a.02;inhumane.a.01;marked or motivated by concern with the alleviation of suffering;regulations ensuring the humane treatment of animals;True
+134;Morality;vicious;viciou;ADJECTIVE;1;low;barbarous.s.01;;(of persons or their actions) able or disposed to inflict pain or suffering;a barbarous crime;False
+135;Morality;vicious;viciou;ADJECTIVE;2;low;evil.s.02;;having the nature of vice;a vicious assault;True
+136;Morality;vicious;viciou;ADJECTIVE;3;low;condemnable.s.01;;bringing or deserving severe rebuke or censure;a criminal waste of talent;False
+137;Morality;scheming;scheming;ADJECTIVE;1;low;calculating.s.01;;used of persons;the most calculating and selfish men in the community;False
+138;Morality;revengeful;revengeful;ADJECTIVE;1;low;revengeful.s.01;;"disposed to seek revenge or intended for revenge; - Shakespeare; - M.R.Cohen";more vindictive than jealous love;False
+139;Morality;treacherous;treacherou;ADJECTIVE;2;low;punic.s.02;;"tending to betray; especially having a treacherous character as attributed to the Carthaginians by the Romans";Punic faith;False
+140;Morality;faithful;faithful;ADJECTIVE;1;high;faithful.a.01;unfaithful.a.01;steadfast in affection or allegiance;years of faithful service;True
+141;Morality;exploitative;exploitative;ADJECTIVE;1;low;exploitative.s.01;accommodative.s.02;tending to exploit or make use of;an exploitative form of labour;True
+142;Morality;stingy;stingy;ADJECTIVE;1;low;stingy.a.01;generous.a.01;unwilling to spend;she practices economy without being stingy;True
+143;Morality;brutal;brutal;ADJECTIVE;1;low;barbarous.s.01;;(of persons or their actions) able or disposed to inflict pain or suffering;a barbarous crime;False
+144;Morality;good-natured;goodnatured;ADJECTIVE;1;high;good-natured.a.01;ill-natured.a.01;having an easygoing and cheerful disposition;too good-natured to resent a little criticism;True
+145;Morality;truthful;truthful;ADJECTIVE;1;high;truthful.a.01;untruthful.a.01;expressing or given to expressing the truth;to be just, honest and truthful;False
+146;Morality;untruthful;untruthful;ADJECTIVE;1;low;untruthful.a.01;truthful.a.01;not expressing or given to expressing the truth;the statement given under oath was untruthful;True
+147;Morality;cooperative;cooperative;ADJECTIVE;3;high;accommodative.s.02;exploitative.s.01;willing to adjust to differences in order to obtain agreement;every member has clearly defined tasks in a cooperative enterprise;True
+148;Morality;uncooperative;uncooperative;ADJECTIVE;1;low;uncooperative.a.01;cooperative.a.02;unwilling to cooperate;an uncooperative witness;True
+149;Morality;lenient;lenient;ADJECTIVE;3;high;lenient.s.03;;characterized by tolerance and mercy;in the view of the Court the sentence was too lenient;True
+150;Morality;generous;generou;ADJECTIVE;1;high;generous.a.01;stingy.a.01;willing to give and share unstintingly;a generous donation;True
+151;Morality;forgiving;forgiving;ADJECTIVE;1;high;forgiving.a.01;unforgiving.a.01;inclined or able to forgive and show mercy;a kindly forgiving nature;True
+152;Morality;compassionate;compassionate;ADJECTIVE;1;high;compassionate.a.01;uncompassionate.a.01;showing or having compassion;heard the soft and compassionate voices of women;True
+153;Morality;unforgiving;unforgiving;ADJECTIVE;1;low;unforgiving.a.01;forgiving.a.01;unwilling or unable to forgive or show mercy;a surly unforgiving old woman;True
+154;Morality;resentful;resentful;ADJECTIVE;1;low;resentful.a.01;unresentful.a.01;full of or marked by resentment or indignant ill will;resentful at the way he was treated;True
+155;Morality;reliable;reliable;ADJECTIVE;1;high;reliable.a.01;unreliable.a.02;worthy of reliance or trust;a reliable source of information;True
+156;Morality;reliable;reliable;ADJECTIVE;2;high;dependable.s.02;;worthy of being depended on;a dependable worker;False
+157;Morality;unreliable;unreliable;ADJECTIVE;2;low;unreliable.a.02;reliable.a.01;not worthy of reliance or trust;in the early 1950s computers were large and expensive and unreliable;True
+158;Morality;irresponsible;irresponsible;ADJECTIVE;1;low;irresponsible.a.01;responsible.a.01;showing lack of care for consequences;behaved like an irresponsible idiot;True
+159;Morality;responsible;responsible;ADJECTIVE;1;high;responsible.a.01;irresponsible.a.01;"worthy of or requiring responsibility or trust; or held accountable";a responsible adult;True
+160;Morality;prejudiced;prejudiced;ADJECTIVE;2;low;prejudiced.a.02;unprejudiced.a.01;being biased or having a belief or attitude formed beforehand;a prejudiced judge;True
+161;Morality;unprejudiced;unprejudiced;ADJECTIVE;1;high;unprejudiced.a.01;prejudiced.a.02;free from undue bias or preconceived opinions;an unprejudiced appraisal of the pros and cons;True
+162;Morality;racist;racist;ADJECTIVE;1;low;racist.s.01;;based on racial intolerance;racist remarks;True
+163;Morality;racist;racist;ADJECTIVE;2;low;racist.s.02;;discriminatory especially on the basis of race or religion;we are investigating complaints about racist abuse;True
+164;Morality;sexist;sexist;ADJECTIVE;1;low;sexist.s.01;;discriminatory on the basis of sex (usually said of men's attitude toward women);old-fashioned sexist attitudes;True
+165;Morality;homophobic;homophobic;ADJECTIVE;1;low;homophobic.s.01;;prejudiced against homosexual people;homophobic remarks;True
+166;Morality;evil;evil;ADJECTIVE;1;low;evil.a.01;good.a.03;morally bad or wrong;evil purposes;True
+167;Morality;evil;evil;ADJECTIVE;2;low;evil.s.02;;having the nature of vice;his evil deeds;True
+168;Morality;evil;evil;ADJECTIVE;3;low;malefic.s.01;;having or exerting a malignant influence;malevolent stars;False
+169;Morality;beneficent;beneficent;ADJECTIVE;1;high;beneficent.a.01;maleficent.a.01;doing or producing good;the most beneficent regime in history;True
+170;Ability;competent;competent;ADJECTIVE;1;high;competent.a.01;incompetent.a.02;properly or sufficiently qualified or capable or efficient;a competent typist;True
+171;Ability;incompetent;incompetent;ADJECTIVE;2;low;incompetent.a.02;competent.a.01;not qualified or suited for a purpose;an incompetent secret service;True
+172;Ability;incompetent;incompetent;ADJECTIVE;3;low;bungling.s.01;clever.s.03;showing lack of skill or aptitude;a bungling workman;False
+173;Ability;incompetent;incompetent;ADJECTIVE;4;low;incompetent.s.04;brainy.s.01;not doing a good job;incompetent at chess;True
+174;Ability;competitive;competitive;ADJECTIVE;3;high;competitive.s.03;uncompetitive.s.01;showing a fighting disposition;highly competitive sales representative;True
+175;Ability;uncompetitive;uncompetitive;ADJECTIVE;1;low;uncompetitive.s.01;competitive.s.03;not inclined to compete;that would destroy jobs and make industry uncompetitive;True
+176;Ability;smart;smart;ADJECTIVE;1;high;smart.a.01;stupid.a.01;showing mental alertness and calculation and resourcefulness;you look very smart;True
+177;Ability;smart;smart;ADJECTIVE;3;high;bright.s.03;dazed.s.01;characterized by quickness and ease in learning;some children are brighter in one subject than another;False
+178;Ability;bright;bright;ADJECTIVE;3;high;bright.s.03;ignorant.s.01;characterized by quickness and ease in learning;some children are brighter in one subject than another;False
+179;Ability;intelligent;intelligent;ADJECTIVE;1;high;intelligent.a.01;unintelligent.a.01;having the capacity for thought and reason especially to a high degree;is there intelligent life in the universe?;True
+180;Ability;intelligent;intelligent;ADJECTIVE;2;high;intelligent.s.02;dense.s.04;possessing sound knowledge;well-informed readers;False
+181;Ability;unintelligent;unintelligent;ADJECTIVE;1;low;unintelligent.a.01;intelligent.a.01;lacking intelligence;a dull job with lazy and unintelligent co-workers;True
+182;Ability;stupid;stupid;ADJECTIVE;1;low;stupid.a.01;smart.a.01;lacking or marked by lack of intellectual acuity;I was stupid enough to think she was perfect;True
+183;Ability;stupid;stupid;ADJECTIVE;2;low;dazed.s.01;bright.s.03;in a state of mental numbness especially as resulting from shock;he had a dazed expression on his face;False
+184;Ability;stupid;stupid;ADJECTIVE;3;low;unintelligent.a.01;intelligent.a.01;lacking intelligence;a stupid dull job with lazy and unintelligent co-workers;False
+185;Ability;ignorant;ignorant;ADJECTIVE;1;low;ignorant.s.01;bright.s.03;"uneducated in general; lacking knowledge or sophistication";an ignorant man;True
+186;Ability;dumb;dumb;ADJECTIVE;1;low;dense.s.04;intelligent.s.02;"slow to learn or understand; lacking intellectual acuity; ; ; - Thackeray";so dense he never understands anything I say to him;False
+187;Ability;able;able;ADJECTIVE;1;high;able.a.01;unable.a.01;(usually followed by `to') having the necessary means or skill or know-how or authority to do something;able to swim;True
+188;Ability;able;able;ADJECTIVE;2;high;able.s.02;gawky.s.01;have the skills and qualifications to do things well;able teachers;True
+189;Ability;unable;unable;ADJECTIVE;1;low;unable.a.01;able.a.01;(usually followed by `to') not having the necessary means or skill or know-how;unable to get to town without a car;True
+190;Ability;skillful;skillful;ADJECTIVE;1;high;adept.s.01;awkward.s.04;having or showing knowledge and skill and aptitude;adept in handicrafts;False
+191;Ability;skilled;skilled;ADJECTIVE;1;high;skilled.a.01;unskilled.a.01;having or showing or requiring special skill;only the most skilled gymnasts make an Olympic team;True
+192;Ability;educated;educated;ADJECTIVE;1;high;educated.a.01;uneducated.a.01;possessing an education (especially having more than average knowledge);a Harvard educated lawyer;False
+193;Ability;uneducated;uneducated;ADJECTIVE;1;low;uneducated.a.01;educated.a.01;not having a good education;the workforce remains largely uneducated and unskilled;True
+194;Ability;rational;rational;ADJECTIVE;1;high;rational.a.01;irrational.a.01;consistent with or based on or using reason;rational behavior;True
+195;Ability;irrational;irrational;ADJECTIVE;1;low;irrational.a.01;rational.a.01;not consistent with or using reason;irrational fears;True
+196;Ability;creative;creative;ADJECTIVE;1;high;creative.a.01;uncreative.a.01;having the ability or power to create;a creative imagination;True
+197;Ability;uncreative;uncreative;ADJECTIVE;1;low;uncreative.a.01;creative.a.01;not creative;an uncreative imagination;True
+198;Ability;capable;capable;ADJECTIVE;1;high;capable.a.01;incapable.a.01;(usually followed by `of') having capacity or ability;capable of winning;True
+199;Ability;capable;capable;ADJECTIVE;5;high;able.s.02;bungling.s.01;have the skills and qualifications to do things well;able teachers;False
+200;Ability;incapable;incapable;ADJECTIVE;1;low;incapable.a.01;capable.a.01;(followed by `of') lacking capacity or ability;incapable of carrying a tune;True
+201;Ability;practical;practical;ADJECTIVE;1;high;practical.a.01;impractical.a.01;concerned with actual use or practice;he is a very practical person;True
+202;Ability;impractical;impractical;ADJECTIVE;1;low;impractical.a.01;practical.a.01;"not practical; not workable or not given to practical matters";refloating the ship proved impractical because of the expense;True
+203;Ability;graceful;graceful;ADJECTIVE;1;high;graceful.a.01;awkward.a.02;characterized by beauty of movement, style, form, or execution;she was a tall girl, slender and graceful;True
+204;Ability;felicitous;felicitou;ADJECTIVE;1;high;felicitous.a.01;infelicitous.a.01;exhibiting an agreeably appropriate manner or style;a felicitous speaker;True
+205;Ability;clumsy;clumsy;ADJECTIVE;1;low;gawky.s.01;able.s.02;lacking grace in movement or posture;a gawky lad with long ungainly legs;False
+206;Ability;clumsy;clumsy;ADJECTIVE;2;low;awkward.s.04;adept.s.01;not elegant or graceful in expression;an awkward prose style;False
+207;Ability;clumsy;clumsy;ADJECTIVE;4;low;bungling.s.01;able.s.02;showing lack of skill or aptitude;a bungling workman;False
+208;Ability;imaginative;imaginative;ADJECTIVE;1;high;imaginative.s.01;sterile.s.03;"(used of persons or artifacts) marked by independence and creativity in thought or action; ; - Lewis Mumford";an imaginative use of material;True
+209;Ability;unimaginative;unimaginative;ADJECTIVE;1;low;sterile.s.03;imaginative.s.01;"deficient in originality or creativity; lacking powers of invention";a sterile ideology lacking in originality;False
+210;Ability;foolish;foolish;ADJECTIVE;1;low;foolish.a.01;wise.a.01;devoid of good sense or judgment;foolish remarks;True
+211;Ability;shrewd;shrewd;ADJECTIVE;1;high;astute.s.01;;marked by practical hardheaded intelligence;a smart businessman;False
+212;Ability;critical;critical;ADJECTIVE;3;high;critical.a.03;uncritical.a.01;characterized by careful evaluation and judgment;a critical reading;True
+213;Ability;naive;naive;ADJECTIVE;1;low;naive.a.01;sophisticated.a.01;marked by or showing unaffected simplicity and lack of guile or worldly experience;a teenager's naive ignorance of life;True
+214;Ability;discriminating;discriminating;ADJECTIVE;1;high;discriminating.a.01;undiscriminating.a.01;showing or indicating careful judgment and discernment especially in matters of taste;the discriminating eye of the connoisseur;True
+215;Ability;undiscriminating;undiscriminating;ADJECTIVE;1;low;undiscriminating.a.01;discriminating.a.01;not discriminating;junk food is suited only to the undiscriminating palates of the young;True
+216;Ability;inventive;inventive;ADJECTIVE;1;high;imaginative.s.01;;"(used of persons or artifacts) marked by independence and creativity in thought or action; ; - Lewis Mumford";an imaginative use of material;False
+217;Ability;clever;clever;ADJECTIVE;2;high;apt.s.03;feckless.s.02;"mentally quick and resourceful; ; -Bram Stoker";an apt pupil;False
+218;Ability;clever;clever;ADJECTIVE;3;high;clever.s.03;bungling.s.01;showing inventiveness and skill;a clever gadget;True
+219;Ability;maladroit;maladroit;ADJECTIVE;1;low;maladroit.a.01;adroit.a.01;not adroit;a maladroit movement of his hand caused the car to swerve;True
+220;Ability;wise;wise;ADJECTIVE;1;high;wise.a.01;foolish.a.01;having or prompted by wisdom or discernment;a wise leader;True
+221;Ability;wise;wise;ADJECTIVE;2;high;judicious.s.01;unwise.s.01;marked by the exercise of good judgment or common sense in practical matters;judicious use of one's money;False
+222;Ability;unwise;unwise;ADJECTIVE;1;low;unwise.s.01;judicious.s.01;showing or resulting from lack of judgment or wisdom;an unwise investor is soon impoverished;True
+223;Ability;efficient;efficient;ADJECTIVE;2;high;effective.s.02;ineffective.s.03;"able to accomplish a purpose; functioning effectively; -G.B.Shaw";people who will do nothing unless they get something out of it for themselves are often highly effective persons...;False
+224;Ability;effective;effective;ADJECTIVE;2;high;effective.s.02;ineffective.s.03;"able to accomplish a purpose; functioning effectively; -G.B.Shaw";people who will do nothing unless they get something out of it for themselves are often highly effective persons...;True
+225;Ability;inefficient;inefficient;ADJECTIVE;2;low;ineffective.s.03;effective.s.02;"lacking the ability or skill to perform effectively; inadequate";an ineffective administration;False
+226;Ability;ineffective;ineffective;ADJECTIVE;3;low;ineffective.s.03;effective.s.02;"lacking the ability or skill to perform effectively; inadequate";an ineffective administration;True
+227;Ability;logical;logical;ADJECTIVE;1;high;logical.a.01;illogical.a.01;capable of or reflecting the capability for correct and valid reasoning;a logical mind;True
+228;Ability;illogical;illogical;ADJECTIVE;1;low;illogical.a.01;logical.a.01;lacking in correct logical relation;an illogical fear of the supernatural;True
+229;Ability;brilliant;brilliant;ADJECTIVE;2;high;brainy.s.01;incompetent.s.04;having or marked by unusual and impressive intelligence;some men dislike brainy women;False
+230;Ability;insightful;insightful;ADJECTIVE;1;high;insightful.s.01;unperceptive.s.02;"exhibiting insight or clear and deep perception; ; -R.C.Angell";an insightful parent;True
+231;Ability;unperceptive;unperceptive;ADJECTIVE;1;low;unperceptive.a.01;perceptive.a.02;lacking perception;as unperceptive as a boulder;True
+232;Ability;unperceptive;unperceptive;ADJECTIVE;2;low;unperceptive.s.02;insightful.s.01;lacking sensitivity, taste, or judgment;extraordinarily unperceptive people;True
+233;Ability;inept;inept;ADJECTIVE;2;low;feckless.s.02;apt.s.03;generally incompetent and ineffectual;feckless attempts to repair the plumbing;False
+234;Agency;confident;confident;ADJECTIVE;1;high;confident.a.01;diffident.a.02;having or marked by confidence or assurance;a confident speaker;True
+235;Agency;diffident;diffident;ADJECTIVE;1;low;diffident.s.01;self-assured.s.01;showing modest reserve;she was diffident when offering a comment on the professor's lecture;True
+236;Agency;assertive;assertive;ADJECTIVE;1;high;assertive.a.01;unassertive.a.01;aggressively self-assured;an energetic assertive boy who was always ready to argue;True
+237;Agency;unassertive;unassertive;ADJECTIVE;1;high;unassertive.a.01;assertive.a.01;inclined to timidity or lack of self-confidence;a shy unassertive person;True
+238;Agency;secure;secure;ADJECTIVE;1;high;secure.a.01;insecure.a.03;"free from fear or doubt; easy in mind";he was secure that nothing will be held against him;True
+239;Agency;insecure;insecure;ADJECTIVE;3;low;insecure.a.03;secure.a.01;lacking self-confidence or assurance;an insecure person lacking mental stability;True
+240;Agency;lazy;lazy;ADJECTIVE;2;low;faineant.s.01;hardworking.s.01;disinclined to work or exertion;faineant kings under whose rule the country languished;False
+241;Agency;active;active;ADJECTIVE;3;high;active.a.03;passive.a.01;disposed to take action or effectuate change;a director who takes an active interest in corporate operations;True
+242;Agency;active;active;ADJECTIVE;5;high;active.a.05;inactive.a.09;characterized by energetic activity;an active toddler;True
+243;Agency;inactive;inactive;ADJECTIVE;6;low;passive.a.01;active.a.03;"lacking in energy or will; - George Meredith";went from being totally inactive to becoming a regular exerciser;False
+244;Agency;inactive;inactive;ADJECTIVE;8;low;inactive.a.08;active.a.14;not engaged in full-time work;inactive reserve;True
+245;Agency;inactive;inactive;ADJECTIVE;9;low;inactive.a.09;active.a.05;not active physically or mentally;illness forced him to live an inactive life;True
+246;Agency;determined;determined;ADJECTIVE;1;high;determined.s.01;doubtful.s.02;characterized by great determination;a struggle against a determined enemy;True
+247;Agency;doubtful;doubtful;ADJECTIVE;2;low;doubtful.s.02;determined.s.01;fraught with uncertainty or doubt;they were doubtful that the cord would hold;True
+248;Agency;independent;independent;ADJECTIVE;1;high;independent.a.01;dependent.a.01;free from external control and constraint;an independent mind;True
+249;Agency;dependent;dependent;ADJECTIVE;1;low;dependent.a.01;independent.a.01;relying on or requiring a person or thing for support, supply, or what is needed;dependent children;True
+250;Agency;persistent;persistent;ADJECTIVE;4;high;dogged.s.01;;"stubbornly unyielding; ; ; ; - T.S.Eliot";dogged persistence;False
+251;Agency;sporadic;sporadic;ADJECTIVE;1;low;sporadic.a.01;continual.a.01;recurring in scattered and irregular or unpredictable instances;a city subjected to sporadic bombing raids;True
+252;Agency;industrious;industriou;ADJECTIVE;1;high;hardworking.s.01;faineant.s.01;characterized by hard work and perseverance;an industrious people striving to make their country prosperous;True
+253;Agency;industrious;industriou;ADJECTIVE;2;high;energetic.s.02;meek.s.03;working hard to promote an enterprise;an industrious people striving to make their country prosperous;True
+254;Agency;unenterprising;unenterprising;ADJECTIVE;1;low;unenterprising.a.01;enterprising.a.01;"lacking in enterprise; not bold or venturesome";they demand their children seek permission for any act, but then turn upon them as unenterprising;True
+255;Agency;negligent;negligent;ADJECTIVE;1;low;negligent.a.01;diligent.a.02;characterized by neglect and undue lack of concern;negligent parents;True
+256;Agency;energetic;energetic;ADJECTIVE;1;high;energetic.a.01;lethargic.a.01;possessing or exerting or displaying energy;an energetic fund raiser for the college;True
+257;Agency;lethargic;lethargic;ADJECTIVE;1;low;lethargic.a.01;energetic.a.01;deficient in alertness or activity;bullfrogs became lethargic with the first cold nights;True
+258;Agency;self-confident;selfconfident;ADJECTIVE;1;high;self-assured.s.01;diffident.s.01;showing poise and confidence in your own worth;hardly more than a boy but firm-knit and self-confident;True
+259;Agency;ambitious;ambitiou;ADJECTIVE;1;high;ambitious.a.01;unambitious.a.01;having a strong desire for success or achievement;a ruthlessly ambitious workaholic;True
+260;Agency;unambitious;unambitiou;ADJECTIVE;1;low;unambitious.a.01;ambitious.a.01;having little desire for success or achievement;he was an unambitious man;True
+261;Agency;self-reliant;selfreliant;ADJECTIVE;1;high;autonomous.s.03;helpless.s.02;(of persons) free from external control and constraint in e.g. action and judgment;a self-reliant little girl;True
+262;Agency;dedicated;dedicated;ADJECTIVE;1;high;dedicated.a.01;undedicated.a.01;"devoted to a cause or ideal or purpose; ; ; - A.Lincoln";a dedicated dancer;True
+263;Agency;undedicated;undedicated;ADJECTIVE;1;low;undedicated.a.01;dedicated.a.01;not dedicated;the playground has been completed but is still undedicated;True
+264;Agency;cautious;cautiou;ADJECTIVE;1;low;cautious.a.01;incautious.a.01;showing careful forethought;reserved and cautious and never making swift decisions;False
+265;Agency;impulsive;impulsive;ADJECTIVE;2;high;impulsive.s.02;;without forethought;letting him borrow her car was an impulsive act that she immediately regretted;True
+266;Agency;impulsive;impulsive;ADJECTIVE;3;high;driving.s.01;meek.s.02;having the power of driving or impelling;a driving personal ambition;False
+267;Agency;wavering;wavering;ADJECTIVE;1;low;vacillant.s.01;firm.s.01;uncertain in purpose or action;a wavering flame;True
+268;Agency;resolute;resolute;ADJECTIVE;1;high;resolute.a.01;irresolute.a.01;"firm in purpose or belief; characterized by firmness and determination";stood resolute against the enemy;True
+269;Agency;resolute;resolute;ADJECTIVE;2;high;unhesitating.s.01;;characterized by quickness and firmness;his reply was unhesitating;False
+270;Agency;daring;daring;ADJECTIVE;1;high;audacious.s.03;anxious.s.02;disposed to venture or take risks;audacious visions of the total conquest of space;False
+271;Agency;unadventurous;unadventurou;ADJECTIVE;1;low;unadventurous.a.01;adventurous.a.01;lacking in boldness;he was the unadventurous type;True
+272;Agency;conscientious;conscientiou;ADJECTIVE;1;high;conscientious.s.01;;characterized by extreme care and great effort;conscientious application to the work at hand;True
+273;Agency;careless;careles;ADJECTIVE;1;low;careless.a.01;careful.a.01;"marked by lack of attention or consideration or forethought or thoroughness; not careful";careless about her clothes;True
+274;Agency;motivated;motivated;ADJECTIVE;1;high;motivated.a.01;unmotivated.a.01;provided with a motive or given incentive for action;a highly motivated child can learn almost anything;True
+275;Agency;unmotivated;unmotivated;ADJECTIVE;1;low;unmotivated.a.01;motivated.a.01;without motivation;unmotivated and poorly taught children;False
+276;Agency;meticulous;meticulou;ADJECTIVE;1;high;meticulous.s.01;;marked by precise accordance with details;meticulous research;True
+277;Agency;meticulous;meticulou;ADJECTIVE;2;high;meticulous.s.02;;marked by extreme care in treatment of details;a meticulous craftsman;True
+278;Agency;resilient;resilient;ADJECTIVE;1;high;resilient.s.01;nonresilient.s.01;recovering readily from adversity, depression, or the like;babies are generally far more resilient than new parents realize;True
+279;Agency;nonresilient;nonresilient;ADJECTIVE;1;low;nonresilient.s.01;resilient.s.01;not resilient;life sometimes got in the way of their goals but they learned to be resilient;
+280;Agency;spiritless;spiritles;ADJECTIVE;1;low;spiritless.a.01;spirited.a.01;lacking ardor or vigor or energy;a spiritless reply to criticism;True
+281;Agency;unwavering;unwavering;ADJECTIVE;1;high;firm.s.01;vacillant.s.01;"marked by firm determination or resolution; not shakable";firm convictions;False
+282;Agency;anxious;anxiou;ADJECTIVE;2;low;anxious.s.02;audacious.s.03;causing or fraught with or showing anxiety;spent an anxious night waiting for the test results;True
+283;Agency;untroubled;untroubled;ADJECTIVE;1;high;untroubled.a.01;troubled.a.01;not beset by troubles or disturbance or distress;seemed untroubled by doubts of any kind;True
+284;Agency;autonomous;autonomou;ADJECTIVE;3;high;autonomous.s.03;helpless.s.01;(of persons) free from external control and constraint in e.g. action and judgment;the federation included sixteen autonomous republics;True
+285;Agency;helpless;helples;ADJECTIVE;1;low;helpless.s.01;autonomous.s.03;lacking in or deprived of strength or power;lying ill and helpless;True
+286;Agency;helpless;helples;ADJECTIVE;2;low;helpless.s.02;autonomous.s.03;"unable to function; without help";the cubs are born blind and helpless;True
+287;Agency;dominated;dominated;ADJECTIVE;1;low;dominated.s.01;ascendant.s.02;controlled or ruled by superior authority or power;they are used to being dominated by their boss;
+288;Agency;dominating;dominating;ADJECTIVE;1;high;ascendant.s.02;dominated.s.01;most powerful or important or influential;the economically ascendant class;False
+289;Agency;dominant;dominant;ADJECTIVE;1;high;dominant.a.01;subordinate.a.01;exercising influence or control;television plays a dominant role in molding public opinion;True
+290;Agency;submissive;submissive;ADJECTIVE;1;low;submissive.a.01;domineering.a.01;inclined or willing to submit to orders or wishes of others or showing such inclination;submissive servants;True
+291;Agency;submissive;submissive;ADJECTIVE;2;low;slavish.s.02;aggressive.s.03;"abjectly submissive; characteristic of a slave or servant; ; - S.H.Adams";slavish devotion to her job ruled her life;False
+292;Agency;meek;meek;ADJECTIVE;2;low;meek.s.02;driving.s.01;"very docile; ; - Langston Hughes";tame obedience;False
+293;Agency;meek;meek;ADJECTIVE;3;low;meek.s.03;energetic.s.02;"evidencing little spirit or courage; overly submissive or compliant; ; - Orville Prescott";compliant and anxious to suit his opinions of those of others;False
+294;Agency;vulnerable;vulnerable;ADJECTIVE;1;low;vulnerable.a.01;invulnerable.a.01;susceptible to attack;a vulnerable bridge;True
+295;Agency;aggressive;aggressive;ADJECTIVE;1;high;aggressive.a.01;unaggressive.a.01;having or showing determination and energetic pursuit of your ends;an aggressive businessman;True
+296;Agency;aggressive;aggressive;ADJECTIVE;3;high;aggressive.s.03;slavish.s.02;characteristic of an enemy or one eager to fight;aggressive acts against another country;True
+297;Agency;docile;docile;ADJECTIVE;1;low;docile.a.01;stubborn.a.01;willing to be taught or led or supervised or directed;the docile masses of an enslaved nation;True
+298;Status;poor;poor;ADJECTIVE;2;low;poor.a.02;rich.a.01;having little money or few possessions;deplored the gap between rich and poor countries;True
+299;Status;wealthy;wealthy;ADJECTIVE;1;high;affluent.s.01;;having an abundant supply of money or possessions of value;an affluent banker;False
+300;Status;rich;rich;ADJECTIVE;1;high;rich.a.01;poor.a.02;possessing material wealth;her father is extremely rich;True
+301;Status;powerful;powerful;ADJECTIVE;1;high;powerful.a.01;powerless.a.01;having great power or force or potency or effect;the most powerful government in western Europe;True
+302;Status;powerful;powerful;ADJECTIVE;2;high;knock-down.s.01;;strong enough to knock down or overwhelm;a knock-down blow;False
+303;Status;powerless;powerles;ADJECTIVE;1;low;powerless.a.01;powerful.a.01;lacking power;troops were powerless to stop last night's shooting;True
+304;Status;superior;superior;ADJECTIVE;2;high;superior.a.02;inferior.a.01;of or characteristic of high rank or importance;a superior ruler;True
+305;Status;inferior;inferior;ADJECTIVE;1;low;inferior.a.01;superior.a.02;of or characteristic of low rank or importance;schooling in inner-city areas was inferior to that in the rest of the country;True
+306;Status;prestigious;prestigiou;ADJECTIVE;1;high;esteemed.s.01;insignificant.s.02;"having an illustrious reputation; respected";our esteemed leader;False
+307;Status;prestigious;prestigiou;ADJECTIVE;2;high;prestigious.s.02;insignificant.s.03;exerting influence by reason of high status or prestige;a prestigious professor at a prestigious university;True
+308;Status;influential;influential;ADJECTIVE;1;high;influential.a.01;uninfluential.a.01;having or exercising influence or power;an influential newspaper;True
+309;Status;uninfluential;uninfluential;ADJECTIVE;1;low;uninfluential.a.01;influential.a.01;not influential;the country became a regular if uninfluential participant;True
+310;Status;successful;successful;ADJECTIVE;1;high;successful.a.01;unsuccessful.a.01;having succeeded or being marked by a favorable outcome;a successful architect;True
+311;Status;unsuccessful;unsuccessful;ADJECTIVE;1;low;unsuccessful.a.01;successful.a.01;"not successful; having failed or having an unfavorable outcome";an unsuccessful attempt to enter Parliament;True
+312;Status;important;important;ADJECTIVE;1;high;important.a.01;unimportant.a.01;of great significance or value;important people;True
+313;Status;important;important;ADJECTIVE;4;high;authoritative.s.01;;having authority or ascendancy or influence;an important official;True
+314;Status;insignificant;insignificant;ADJECTIVE;2;low;insignificant.s.02;esteemed.s.01;signifying nothing;insignificant sounds;True
+315;Status;insignificant;insignificant;ADJECTIVE;3;low;insignificant.s.03;prestigious.s.02;"of little importance or influence or power; of minor status";a minor, insignificant bureaucrat;True
+316;Status;insignificant;insignificant;ADJECTIVE;4;low;insignificant.a.04;significant.a.01;devoid of importance, meaning, or force;the sum required was insignificant compared with military spending;True
+317;Status;resourceful;resourceful;ADJECTIVE;1;high;resourceful.s.01;;"having inner resources; adroit or imaginative";someone who is resourceful is capable of dealing with difficult situations;True
+318;Status;eminent;eminent;ADJECTIVE;1;high;eminent.s.01;humble.s.01;standing above others in quality or position;people in high places;False
+319;Status;eminent;eminent;ADJECTIVE;2;high;eminent.s.02;;"of imposing height; especially standing out above others";an eminent peak;True
+320;Status;low;low;ADJECTIVE;7;low;humble.s.01;eminent.s.01;low or inferior in station or quality;a humble cottage;False
+321;Status;respected;respected;ADJECTIVE;1;high;respected.s.01;;receiving deferential regard;a respected family;True
+322;Status;disreputable;disreputable;ADJECTIVE;1;low;disreputable.a.01;reputable.a.01;lacking respectability in character or behavior or appearance;he was heavy, grubby, and vaguely disreputable;True
+323;Politics;traditional;traditional;ADJECTIVE;1;high;traditional.a.01;nontraditional.a.01;consisting of or derived from tradition;traditional history;True
+324;Politics;traditional;traditional;ADJECTIVE;2;high;traditional.s.02;modern.s.03;pertaining to time-honored orthodox doctrines;the simple security of traditional assumptions has vanished;True
+325;Politics;modern;modern;ADJECTIVE;1;low;modern.a.01;nonmodern.a.01;"belonging to the modern era; since the Middle Ages";modern art;True
+326;Politics;modern;modern;ADJECTIVE;3;low;modern.s.03;traditional.s.02;characteristic of present-day art and music and literature and architecture;the pace of modern life;True
+327;Politics;modern;modern;ADJECTIVE;4;low;advanced.s.03;conventional.s.02;ahead of the times;the advanced teaching methods;False
+328;Politics;modern;modern;ADJECTIVE;5;low;modern.s.05;conventional.s.06;"used of a living language; being the current stage in its development";Modern English;False
+329;Politics;conventional;conventional;ADJECTIVE;1;high;conventional.a.01;unconventional.a.01;following accepted customs and proprieties;conventional wisdom;True
+330;Politics;conventional;conventional;ADJECTIVE;2;high;conventional.s.02;advanced.s.03;conforming with accepted standards;a conventional view of the world;True
+331;Politics;conventional;conventional;ADJECTIVE;4;high;conventional.a.04;unconventional.a.02;unimaginative and conformist;conventional bourgeois lives;True
+332;Politics;conventional;conventional;ADJECTIVE;6;high;conventional.s.06;modern.s.05;in accord with or being a tradition or practice accepted from the past;a conventional church wedding with the bride in traditional white;True
+333;Politics;unconventional;unconventional;ADJECTIVE;1;low;unconventional.a.01;conventional.a.01;not conforming to accepted rules or standards;her unconventional dress and hair style;True
+334;Politics;unconventional;unconventional;ADJECTIVE;2;low;unconventional.a.02;conventional.a.01;not conventional or conformist;unconventional life styles;True
+335;Politics;alternative;alternative;ADJECTIVE;3;low;alternative.s.03;;pertaining to unconventional choices;an alternative life style;True
+336;Politics;conservative;conservative;ADJECTIVE;1;high;conservative.a.01;liberal.a.03;resistant to change;they were very conservative in their outlook;True
+337;Politics;conservative;conservative;ADJECTIVE;2;high;conservative.s.02;liberal.s.02;having social or political views favoring conservatism;they were very conservative in their outlook;True
+338;Politics;liberal;liberal;ADJECTIVE;1;low;broad.s.08;;showing or characterized by broad-mindedness;a broad political stance;False
+339;Politics;liberal;liberal;ADJECTIVE;2;low;liberal.s.02;conservative.s.02;having political or social views favoring reform and progress;they have liberal views on divorce;True
+340;Politics;liberal;liberal;ADJECTIVE;3;low;liberal.a.03;conservative.a.01;"tolerant of change; not bound by authoritarianism, orthodoxy, or tradition";they have liberal views on divorce;True
+341;Politics;progressive;progressive;ADJECTIVE;1;low;progressive.a.01;regressive.a.02;favoring or promoting progress;progressive schools;True
+342;Politics;progressive;progressive;ADJECTIVE;2;low;progressive.s.02;;favoring or promoting reform (often by government action);a progressive decline in popularity;True
+343;Politics;narrow-minded;narrowminded;ADJECTIVE;2;high;narrow-minded.a.02;broad-minded.a.02;lacking tolerance or flexibility or breadth of view;a brilliant but narrow-minded judge;True
+344;Politics;narrow-minded;narrowminded;ADJECTIVE;3;high;narrow-minded.s.03;open-minded.s.01;rigidly adhering to a particular sect or its doctrines;it would be narrow-minded not to welcome these developments;True
+345;Politics;open-minded;openminded;ADJECTIVE;1;low;open-minded.s.01;narrow-minded.s.03;ready to entertain new ideas;an open-minded curiosity;True
