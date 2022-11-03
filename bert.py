@@ -584,7 +584,7 @@ def initCustomModel(original_model, new_model_path, task):
   # Load Polar space
   antonym_path_wordnet = new_model_path + "polar_dimensions.pkl"#"antonym_wordnet_dir_matrix.pkl"
   W, W_inverse = bertFuncs.getW(antonym_path_wordnet)
-  W_inverse = torch.from_numpy(W_inverse)
+  W_inverse = torch.from_numpy(W)
 
   # Initilize new Polar model
   if task == "QuestionAnswering":

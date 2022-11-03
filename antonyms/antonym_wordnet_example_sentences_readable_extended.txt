@@ -1,4 +1,236 @@
 {
+    "['sociable.a.01', 'unsociable.a.01']": {
+        "sociable": [
+            "a sociable occasion"
+        ],
+        "unsociable": [
+            "an unsociable nature...shy and reserved"
+        ]
+    },
+    "['friendly.a.01', 'unfriendly.a.02']": {
+        "friendly": [
+            "friendly advice"
+        ],
+        "unfriendly": [
+            "an unfriendly coldness of manner"
+        ]
+    },
+    "['sympathetic.a.04', 'unsympathetic.a.02']": {
+        "likable": [
+            "the sympathetic characters in the play"
+        ],
+        "unlikable": [
+            "all the characters were peculiarly unsympathetic"
+        ]
+    },
+    "['liked.a.01', 'disliked.a.01']": {
+        "liked": [
+            "a well-liked teacher"
+        ],
+        "disliked": [
+            "he was intensely disliked"
+        ]
+    },
+    "['sensitive.a.02', 'insensitive.a.02']": {
+        "sensitive": [
+            "sensitive to the local community and its needs"
+        ],
+        "insensitive": [
+            "insensitive to the needs of the patients"
+        ]
+    },
+    "['helpful.a.01', 'unhelpful.a.01']": {
+        "helpful": [
+            "people are friendly and helpful"
+        ],
+        "unhelpful": [
+            "several complained that the staff were unhelpful"
+        ]
+    },
+    "['supportive.a.01', 'unsupportive.a.01']": {
+        "supportive": [
+            "a supportive family network"
+        ],
+        "unsupportive": [
+            "the family environment is unsupportive"
+        ]
+    },
+    "['polite.a.01', 'impolite.a.01']": {
+        "polite": [
+            "they thought she was wrong but were too polite to say so"
+        ],
+        "impolite": [
+            "it would have been impolite to refuse"
+        ]
+    },
+    "['popular.a.01', 'unpopular.a.01']": {
+        "popular": [
+            "a popular tourist attraction"
+        ],
+        "unpopular": [
+            "unpopular ideas"
+        ]
+    },
+    "['nice.a.01', 'nasty.a.01']": {
+        "nice": [
+            "what a nice fellow you are and we all thought you so nasty"
+        ],
+        "nasty": [
+            "in a nasty mood"
+        ]
+    },
+    "['hospitable.a.02', 'inhospitable.a.02']": {
+        "hospitable": [
+            "a good-natured and hospitable man"
+        ],
+        "inhospitable": [
+            "they are extremely inhospitable these days"
+        ]
+    },
+    "['moral.a.01', 'immoral.a.01']": {
+        "moral": [
+            "moral sense"
+        ],
+        "immoral": [
+            "unseemly and immoral behaviour"
+        ]
+    },
+    "['trustworthy.a.01', 'untrustworthy.a.01']": {
+        "trustworthy": [
+            "a trustworthy report"
+        ],
+        "untrustworthy": [
+            "an untrustworthy person"
+        ]
+    },
+    "['sincere.a.01', 'insincere.a.01']": {
+        "sincere": [
+            "he was a good man, decent and sincere"
+        ],
+        "insincere": [
+            "a charming but thoroughly insincere woman"
+        ]
+    },
+    "['honest.a.01', 'dishonest.a.01']": {
+        "honest": [
+            "honest lawyers"
+        ],
+        "dishonest": [
+            "he was a dishonest hypocrite prepared to exploit his family"
+        ]
+    },
+    "['loyal.a.01', 'disloyal.a.02']": {
+        "loyal": [
+            "loyal subjects"
+        ],
+        "disloyal": [
+            "disloyal aides revealed his indiscretions to the papers"
+        ]
+    },
+    "['fair.a.01', 'unfair.a.01']": {
+        "fair": [
+            "a fair referee"
+        ],
+        "unfair": [
+            "used unfair methods"
+        ]
+    },
+    "['tolerant.a.01', 'intolerant.a.01']": {
+        "tolerant": [
+            "we must be tolerant of others"
+        ],
+        "intolerant": [
+            "as a society we are more intolerant of certain types of violence than we were in the past"
+        ]
+    },
+    "['good.a.03', 'evil.a.01']": {
+        "good": [
+            "it's good that he's back to his old self"
+        ],
+        "evil": [
+            "evil purposes"
+        ]
+    },
+    "['kind.a.01', 'unkind.a.01']": {
+        "kind": [
+            "kind to sick patients"
+        ],
+        "unkind": [
+            "a thoughtless and unkind remark"
+        ]
+    },
+    "['right.a.04', 'wrong.a.02']": {
+        "right": [
+            "do the right thing and confess"
+        ],
+        "wrong": [
+            "it is wrong for the rich to take advantage of the poor"
+        ]
+    },
+    "['incorrupt.a.01', 'corrupt.a.01']": {
+        "incorrupt": [
+            "a policeman who was incorrupt and incorruptible"
+        ],
+        "corrupt": [
+            "humanity they knew to be corrupt...from the day of Adam's creation"
+        ]
+    },
+    "['amicable.a.01', 'hostile.a.01']": {
+        "amicable": [
+            "an amicable settlement of the dispute"
+        ],
+        "hostile": [
+            "a hostile nation"
+        ]
+    },
+    "['truthful.a.01', 'untruthful.a.01']": {
+        "truthful": [
+            "a true statement"
+        ],
+        "untruthful": [
+            "the statement given under oath was untruthful"
+        ]
+    },
+    "['generous.a.01', 'stingy.a.01']": {
+        "generous": [
+            "a generous donation"
+        ],
+        "stingy": [
+            "she practices economy without being stingy"
+        ]
+    },
+    "['forgiving.a.01', 'unforgiving.a.01']": {
+        "forgiving": [
+            "a kindly forgiving nature"
+        ],
+        "unforgiving": [
+            "a surly unforgiving old woman"
+        ]
+    },
+    "['reliable.a.01', 'unreliable.a.02']": {
+        "reliable": [
+            "a reliable source of information"
+        ],
+        "unreliable": [
+            "in the early 1950s computers were large and expensive and unreliable"
+        ]
+    },
+    "['responsible.a.01', 'irresponsible.a.01']": {
+        "responsible": [
+            "a responsible adult"
+        ],
+        "irresponsible": [
+            "behaved like an irresponsible idiot"
+        ]
+    },
+    "['unprejudiced.a.01', 'prejudiced.a.02']": {
+        "unprejudiced": [
+            "an unprejudiced appraisal of the pros and cons"
+        ],
+        "prejudiced": [
+            "a prejudiced judge"
+        ]
+    },
     "['competent.a.01', 'incompetent.a.02']": {
         "competent": [
             "a competent typist"
@@ -7,11 +239,19 @@
             "an incompetent secret service"
         ]
     },
+    "['smart.a.01', 'stupid.a.01']": {
+        "smart": [
+            "you look very smart"
+        ],
+        "stupid": [
+            "I was stupid enough to think she was perfect"
+        ]
+    },
     "['intelligent.a.01', 'unintelligent.a.01']": {
         "intelligent": [
             "is there intelligent life in the universe?"
         ],
-        "stupid": [
+        "unintelligent": [
             "a dull job with lazy and unintelligent co-workers"
         ]
     },
@@ -21,6 +261,14 @@
         ],
         "unable": [
             "unable to get to town without a car"
+        ]
+    },
+    "['educated.a.01', 'uneducated.a.01']": {
+        "educated": [
+            "a Harvard-educated lawyer"
+        ],
+        "uneducated": [
+            "the workforce remains largely uneducated and unskilled"
         ]
     },
     "['rational.a.01', 'irrational.a.01']": {
@@ -55,12 +303,164 @@
             "refloating the ship proved impractical because of the expense"
         ]
     },
+    "['discriminating.a.01', 'undiscriminating.a.01']": {
+        "discriminating": [
+            "the discriminating eye of the connoisseur"
+        ],
+        "undiscriminating": [
+            "junk food is suited only to the undiscriminating palates of the young"
+        ]
+    },
     "['wise.a.01', 'foolish.a.01']": {
         "wise": [
             "a wise leader"
         ],
         "foolish": [
             "foolish remarks"
+        ]
+    },
+    "['logical.a.01', 'illogical.a.01']": {
+        "logical": [
+            "a logical mind"
+        ],
+        "illogical": [
+            "an illogical fear of the supernatural"
+        ]
+    },
+    "['confident.a.01', 'diffident.a.02']": {
+        "confident": [
+            "a confident speaker"
+        ],
+        "shy": [
+            "stood in the doorway diffident and abashed"
+        ]
+    },
+    "['secure.a.01', 'insecure.a.03']": {
+        "secure": [
+            "he was secure that nothing will be held against him"
+        ],
+        "insecure": [
+            "an insecure person lacking mental stability"
+        ]
+    },
+    "['active.a.03', 'passive.a.01']": {
+        "active": [
+            "a director who takes an active interest in corporate operations"
+        ],
+        "inactive": [
+            "Much benevolence of the passive order may be traced to a disinclination to inflict pain upon oneself"
+        ]
+    },
+    "['active.a.05', 'inactive.a.09']": {
+        "active": [
+            "an active toddler"
+        ],
+        "inactive": [
+            "illness forced him to live an inactive life"
+        ]
+    },
+    "['independent.a.01', 'dependent.a.01']": {
+        "independent": [
+            "an independent mind"
+        ],
+        "dependent": [
+            "dependent children"
+        ]
+    },
+    "['energetic.a.01', 'lethargic.a.01']": {
+        "energetic": [
+            "an energetic fund raiser for the college"
+        ],
+        "lethargic": [
+            "bullfrogs became lethargic with the first cold nights"
+        ]
+    },
+    "['ambitious.a.01', 'unambitious.a.01']": {
+        "ambitious": [
+            "a ruthlessly ambitious workaholic"
+        ],
+        "unambitious": [
+            "he was an unambitious man"
+        ]
+    },
+    "['dedicated.a.01', 'undedicated.a.01']": {
+        "dedicated": [
+            "a dedicated dancer"
+        ],
+        "undedicated": [
+            "the playground has been completed but is still undedicated"
+        ]
+    },
+    "['motivated.a.01', 'unmotivated.a.01']": {
+        "motivated": [
+            "a highly motivated child can learn almost anything"
+        ],
+        "unmotivated": [
+            "unmotivated, poorly taught children"
+        ]
+    },
+    "['rich.a.01', 'poor.a.02']": {
+        "rich": [
+            "her father is extremely rich"
+        ],
+        "poor": [
+            "deplored the gap between rich and poor countries"
+        ]
+    },
+    "['powerful.a.01', 'powerless.a.01']": {
+        "powerful": [
+            "the most powerful government in western Europe"
+        ],
+        "powerless": [
+            "troops were powerless to stop last night's shooting"
+        ]
+    },
+    "['superior.a.02', 'inferior.a.01']": {
+        "superior": [
+            "a superior ruler"
+        ],
+        "inferior": [
+            "schooling in inner-city areas was inferior to that in the rest of the country"
+        ]
+    },
+    "['influential.a.01', 'uninfluential.a.01']": {
+        "influential": [
+            "an influential newspaper"
+        ],
+        "uninfluential": [
+            "the country became a regular if uninfluential participant"
+        ]
+    },
+    "['successful.a.01', 'unsuccessful.a.01']": {
+        "successful": [
+            "a successful architect"
+        ],
+        "unsuccessful": [
+            "an unsuccessful attempt to enter Parliament"
+        ]
+    },
+    "['conventional.a.01', 'unconventional.a.01']": {
+        "conventional": [
+            "conventional wisdom"
+        ],
+        "unconventional": [
+            "her unconventional dress and hair style"
+        ]
+    },
+    "['conventional.a.04', 'unconventional.a.02']": {
+        "conventional": [
+            "conventional bourgeois lives"
+        ],
+        "unconventional": [
+            "unconventional life styles"
+        ]
+    },
+    "['conservative.a.01', 'liberal.a.03']": {
+        "conservative": [
+            "they were very conservative in their outlook"
+        ],
+        "liberal": [
+            "they have liberal views on divorce"
         ]
     }
 }

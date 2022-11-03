@@ -1,11 +1,127 @@
 [
     [
+        "inclined to or conducive to companionship with others",
+        "not inclined to society or companionship"
+    ],
+    [
+        "characteristic of or befitting a friend",
+        "not disposed to friendship or friendliness"
+    ],
+    [
+        "(of characters in literature or drama) evoking empathic or sympathetic feelings",
+        "(of characters in literature or drama) tending to evoke antipathetic feelings"
+    ],
+    [
+        "found pleasant or attractive; often used as a combining form",
+        "regarded with aversion"
+    ],
+    [
+        "being susceptible to the attitudes, feelings, or circumstances of others",
+        "deficient in human sensibility; not mentally or morally sensitive"
+    ],
+    [
+        "providing assistance or serving a useful function",
+        "providing no assistance"
+    ],
+    [
+        "furnishing support or assistance",
+        "not furnishing support or assistance"
+    ],
+    [
+        "showing regard for others in manners, speech, behavior, etc.",
+        "not polite"
+    ],
+    [
+        "regarded with great favor, approval, or affection especially by the general public",
+        "regarded with disfavor or lacking general approval"
+    ],
+    [
+        "pleasant or pleasing or agreeable in nature or appearance; - George Meredith",
+        "offensive or even (of persons) malicious; ; ; ; ; ; - Ezra Pound"
+    ],
+    [
+        "disposed to treat guests and strangers with cordiality and generosity",
+        "not hospitable"
+    ],
+    [
+        "concerned with principles of right and wrong or conforming to standards of behavior and character based on those principles",
+        "deliberately violating accepted principles of right and wrong"
+    ],
+    [
+        "worthy of trust or belief",
+        "not worthy of trust or belief"
+    ],
+    [
+        "open and genuine; not deceitful",
+        "lacking sincerity"
+    ],
+    [
+        "not disposed to cheat or defraud; not deceptive or fraudulent",
+        "deceptive or fraudulent; disposed to cheat or defraud or deceive"
+    ],
+    [
+        "steadfast in allegiance or duty",
+        "deserting your allegiance or duty to leader or cause or principle"
+    ],
+    [
+        "free from favoritism or self-interest or bias or deception; conforming with established standards or rules",
+        "not fair; marked by injustice or partiality or deception"
+    ],
+    [
+        "showing respect for the rights or opinions or practices of others",
+        "unwilling to tolerate difference of opinion"
+    ],
+    [
+        "morally admirable",
+        "morally bad or wrong"
+    ],
+    [
+        "having or showing a tender and considerate and helpful nature; used especially of persons and their behavior",
+        "lacking kindness"
+    ],
+    [
+        "in conformance with justice or law or morality",
+        "contrary to conscience or morality or law"
+    ],
+    [
+        "free of corruption or immorality",
+        "lacking in integrity"
+    ],
+    [
+        "characterized by friendship and good will",
+        "characterized by enmity or ill will"
+    ],
+    [
+        "expressing or given to expressing the truth",
+        "not expressing or given to expressing the truth"
+    ],
+    [
+        "willing to give and share unstintingly",
+        "unwilling to spend"
+    ],
+    [
+        "inclined or able to forgive and show mercy",
+        "unwilling or unable to forgive or show mercy"
+    ],
+    [
+        "worthy of reliance or trust",
+        "not worthy of reliance or trust"
+    ],
+    [
+        "worthy of or requiring responsibility or trust; or held accountable",
+        "showing lack of care for consequences"
+    ],
+    [
+        "free from undue bias or preconceived opinions",
+        "being biased or having a belief or attitude formed beforehand"
+    ],
+    [
         "properly or sufficiently qualified or capable or efficient",
         "not qualified or suited for a purpose"
     ],
     [
-        "having the capacity for thought and reason especially to a high degree",
-        "lacking intelligence"
+        "showing mental alertness and calculation and resourcefulness",
+        "lacking or marked by lack of intellectual acuity"
     ],
     [
         "having the capacity for thought and reason especially to a high degree",
@@ -14,6 +130,10 @@
     [
         "(usually followed by `to') having the necessary means or skill or know-how or authority to do something",
         "(usually followed by `to') not having the necessary means or skill or know-how"
+    ],
+    [
+        "possessing an education (especially having more than average knowledge)",
+        "not having a good education"
     ],
     [
         "consistent with or based on or using reason",
@@ -32,7 +152,83 @@
         "not practical; not workable or not given to practical matters"
     ],
     [
+        "showing or indicating careful judgment and discernment especially in matters of taste",
+        "not discriminating"
+    ],
+    [
         "having or prompted by wisdom or discernment",
         "devoid of good sense or judgment"
+    ],
+    [
+        "capable of or reflecting the capability for correct and valid reasoning",
+        "lacking in correct logical relation"
+    ],
+    [
+        "having or marked by confidence or assurance",
+        "lacking self-confidence"
+    ],
+    [
+        "free from fear or doubt; easy in mind",
+        "lacking self-confidence or assurance"
+    ],
+    [
+        "disposed to take action or effectuate change",
+        "lacking in energy or will; - George Meredith"
+    ],
+    [
+        "characterized by energetic activity",
+        "not active physically or mentally"
+    ],
+    [
+        "free from external control and constraint",
+        "relying on or requiring a person or thing for support, supply, or what is needed"
+    ],
+    [
+        "possessing or exerting or displaying energy",
+        "deficient in alertness or activity"
+    ],
+    [
+        "having a strong desire for success or achievement",
+        "having little desire for success or achievement"
+    ],
+    [
+        "devoted to a cause or ideal or purpose; ; ; - A.Lincoln",
+        "not dedicated"
+    ],
+    [
+        "provided with a motive or given incentive for action",
+        "without motivation"
+    ],
+    [
+        "possessing material wealth",
+        "having little money or few possessions"
+    ],
+    [
+        "having great power or force or potency or effect",
+        "lacking power"
+    ],
+    [
+        "of or characteristic of high rank or importance",
+        "of or characteristic of low rank or importance"
+    ],
+    [
+        "having or exercising influence or power",
+        "not influential"
+    ],
+    [
+        "having succeeded or being marked by a favorable outcome",
+        "not successful; having failed or having an unfavorable outcome"
+    ],
+    [
+        "following accepted customs and proprieties",
+        "not conforming to accepted rules or standards"
+    ],
+    [
+        "unimaginative and conformist",
+        "not conventional or conformist"
+    ],
+    [
+        "resistant to change",
+        "tolerant of change; not bound by authoritarianism, orthodoxy, or tradition"
     ]
 ]

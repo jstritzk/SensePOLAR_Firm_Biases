@@ -67,6 +67,9 @@ def getW(antonym_path):
 
   #W_inverse = np.linalg.pinv(np.transpose(W),rcond=0.001)
   W_inverse = linalg.pinv(np.transpose(W))
+
+  W = W/np.linalg.norm(W, axis=1, keepdims=True)
+
   return W, W_inverse
 
 def printMeaningOfWord(word_embedding, antonym_path, numberPolar, definition_path):
@@ -171,8 +174,8 @@ def analyzeWord(cur_word, context, model=None,tokenizer=None, antonym_path="/Use
   #get polar space
   if antonym_path =="":
     antonym_path = "antonyms/antonym_wordnet_base_change.pkl"
-  _, W_inv_np = getW(antonym_path)
-  W_inv_torch = torch.from_numpy(W_inv_np)
+  W, W_inv_np = getW(antonym_path)
+  W_inv_torch = torch.from_numpy(W)
 
   #base-change into polar space
   polar_emb = torch.matmul(W_inv_torch,cur_word_emb)

@@ -195,6 +195,8 @@ def get_dimension_distribution(considered_companies, antonym_pair, nouns_sample)
     sns.distplot(rand_result["rand_value_female"], ax = ax5, label = "Female Random Context", color = 'fuchsia')
     plt.legend()
 
+    plt.savefig(f'{antonym_pair}.png', bbox_inches = "tight")
+
 
 
 def get_dimension_pvalues(considered_companies, antonym_pair, nouns_sample): 

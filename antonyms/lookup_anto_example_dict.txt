@@ -1,6 +1,412 @@
 [
     [
         [
+            "sociable",
+            [
+                "a sociable occasion"
+            ]
+        ],
+        [
+            "unsociable",
+            [
+                "an unsociable nature...shy and reserved"
+            ]
+        ]
+    ],
+    [
+        [
+            "friendly",
+            [
+                "friendly advice"
+            ]
+        ],
+        [
+            "unfriendly",
+            [
+                "an unfriendly coldness of manner"
+            ]
+        ]
+    ],
+    [
+        [
+            "likable",
+            [
+                "the sympathetic characters in the play"
+            ]
+        ],
+        [
+            "unlikable",
+            [
+                "all the characters were peculiarly unsympathetic"
+            ]
+        ]
+    ],
+    [
+        [
+            "liked",
+            [
+                "a well-liked teacher"
+            ]
+        ],
+        [
+            "disliked",
+            [
+                "he was intensely disliked"
+            ]
+        ]
+    ],
+    [
+        [
+            "sensitive",
+            [
+                "sensitive to the local community and its needs"
+            ]
+        ],
+        [
+            "insensitive",
+            [
+                "insensitive to the needs of the patients"
+            ]
+        ]
+    ],
+    [
+        [
+            "helpful",
+            [
+                "people are friendly and helpful"
+            ]
+        ],
+        [
+            "unhelpful",
+            [
+                "several complained that the staff were unhelpful"
+            ]
+        ]
+    ],
+    [
+        [
+            "supportive",
+            [
+                "a supportive family network"
+            ]
+        ],
+        [
+            "unsupportive",
+            [
+                "the family environment is unsupportive"
+            ]
+        ]
+    ],
+    [
+        [
+            "polite",
+            [
+                "they thought she was wrong but were too polite to say so"
+            ]
+        ],
+        [
+            "impolite",
+            [
+                "it would have been impolite to refuse"
+            ]
+        ]
+    ],
+    [
+        [
+            "popular",
+            [
+                "a popular tourist attraction"
+            ]
+        ],
+        [
+            "unpopular",
+            [
+                "unpopular ideas"
+            ]
+        ]
+    ],
+    [
+        [
+            "nice",
+            [
+                "what a nice fellow you are and we all thought you so nasty"
+            ]
+        ],
+        [
+            "nasty",
+            [
+                "in a nasty mood"
+            ]
+        ]
+    ],
+    [
+        [
+            "hospitable",
+            [
+                "a good-natured and hospitable man"
+            ]
+        ],
+        [
+            "inhospitable",
+            [
+                "they are extremely inhospitable these days"
+            ]
+        ]
+    ],
+    [
+        [
+            "moral",
+            [
+                "moral sense"
+            ]
+        ],
+        [
+            "immoral",
+            [
+                "unseemly and immoral behaviour"
+            ]
+        ]
+    ],
+    [
+        [
+            "trustworthy",
+            [
+                "a trustworthy report"
+            ]
+        ],
+        [
+            "untrustworthy",
+            [
+                "an untrustworthy person"
+            ]
+        ]
+    ],
+    [
+        [
+            "sincere",
+            [
+                "he was a good man, decent and sincere"
+            ]
+        ],
+        [
+            "insincere",
+            [
+                "a charming but thoroughly insincere woman"
+            ]
+        ]
+    ],
+    [
+        [
+            "honest",
+            [
+                "honest lawyers"
+            ]
+        ],
+        [
+            "dishonest",
+            [
+                "he was a dishonest hypocrite prepared to exploit his family"
+            ]
+        ]
+    ],
+    [
+        [
+            "loyal",
+            [
+                "loyal subjects"
+            ]
+        ],
+        [
+            "disloyal",
+            [
+                "disloyal aides revealed his indiscretions to the papers"
+            ]
+        ]
+    ],
+    [
+        [
+            "fair",
+            [
+                "a fair referee"
+            ]
+        ],
+        [
+            "unfair",
+            [
+                "used unfair methods"
+            ]
+        ]
+    ],
+    [
+        [
+            "tolerant",
+            [
+                "we must be tolerant of others"
+            ]
+        ],
+        [
+            "intolerant",
+            [
+                "as a society we are more intolerant of certain types of violence than we were in the past"
+            ]
+        ]
+    ],
+    [
+        [
+            "good",
+            [
+                "it's good that he's back to his old self"
+            ]
+        ],
+        [
+            "evil",
+            [
+                "evil purposes"
+            ]
+        ]
+    ],
+    [
+        [
+            "kind",
+            [
+                "kind to sick patients"
+            ]
+        ],
+        [
+            "unkind",
+            [
+                "a thoughtless and unkind remark"
+            ]
+        ]
+    ],
+    [
+        [
+            "right",
+            [
+                "do the right thing and confess"
+            ]
+        ],
+        [
+            "wrong",
+            [
+                "it is wrong for the rich to take advantage of the poor"
+            ]
+        ]
+    ],
+    [
+        [
+            "incorrupt",
+            [
+                "a policeman who was incorrupt and incorruptible"
+            ]
+        ],
+        [
+            "corrupt",
+            [
+                "humanity they knew to be corrupt...from the day of Adam's creation"
+            ]
+        ]
+    ],
+    [
+        [
+            "amicable",
+            [
+                "an amicable settlement of the dispute"
+            ]
+        ],
+        [
+            "hostile",
+            [
+                "a hostile nation"
+            ]
+        ]
+    ],
+    [
+        [
+            "truthful",
+            [
+                "a true statement"
+            ]
+        ],
+        [
+            "untruthful",
+            [
+                "the statement given under oath was untruthful"
+            ]
+        ]
+    ],
+    [
+        [
+            "generous",
+            [
+                "a generous donation"
+            ]
+        ],
+        [
+            "stingy",
+            [
+                "she practices economy without being stingy"
+            ]
+        ]
+    ],
+    [
+        [
+            "forgiving",
+            [
+                "a kindly forgiving nature"
+            ]
+        ],
+        [
+            "unforgiving",
+            [
+                "a surly unforgiving old woman"
+            ]
+        ]
+    ],
+    [
+        [
+            "reliable",
+            [
+                "a reliable source of information"
+            ]
+        ],
+        [
+            "unreliable",
+            [
+                "in the early 1950s computers were large and expensive and unreliable"
+            ]
+        ]
+    ],
+    [
+        [
+            "responsible",
+            [
+                "a responsible adult"
+            ]
+        ],
+        [
+            "irresponsible",
+            [
+                "behaved like an irresponsible idiot"
+            ]
+        ]
+    ],
+    [
+        [
+            "unprejudiced",
+            [
+                "an unprejudiced appraisal of the pros and cons"
+            ]
+        ],
+        [
+            "prejudiced",
+            [
+                "a prejudiced judge"
+            ]
+        ]
+    ],
+    [
+        [
             "competent",
             [
                 "a competent typist"
@@ -10,6 +416,20 @@
             "incompetent",
             [
                 "an incompetent secret service"
+            ]
+        ]
+    ],
+    [
+        [
+            "smart",
+            [
+                "you look very smart"
+            ]
+        ],
+        [
+            "stupid",
+            [
+                "I was stupid enough to think she was perfect"
             ]
         ]
     ],
@@ -29,20 +449,6 @@
     ],
     [
         [
-            "intelligent",
-            [
-                "is there intelligent life in the universe?"
-            ]
-        ],
-        [
-            "stupid",
-            [
-                "a dull job with lazy and unintelligent co-workers"
-            ]
-        ]
-    ],
-    [
-        [
             "able",
             [
                 "able to swim"
@@ -52,6 +458,20 @@
             "unable",
             [
                 "unable to get to town without a car"
+            ]
+        ]
+    ],
+    [
+        [
+            "educated",
+            [
+                "a Harvard-educated lawyer"
+            ]
+        ],
+        [
+            "uneducated",
+            [
+                "the workforce remains largely uneducated and unskilled"
             ]
         ]
     ],
@@ -113,6 +533,20 @@
     ],
     [
         [
+            "discriminating",
+            [
+                "the discriminating eye of the connoisseur"
+            ]
+        ],
+        [
+            "undiscriminating",
+            [
+                "junk food is suited only to the undiscriminating palates of the young"
+            ]
+        ]
+    ],
+    [
+        [
             "wise",
             [
                 "a wise leader"
@@ -122,6 +556,258 @@
             "foolish",
             [
                 "foolish remarks"
+            ]
+        ]
+    ],
+    [
+        [
+            "logical",
+            [
+                "a logical mind"
+            ]
+        ],
+        [
+            "illogical",
+            [
+                "an illogical fear of the supernatural"
+            ]
+        ]
+    ],
+    [
+        [
+            "confident",
+            [
+                "a confident speaker"
+            ]
+        ],
+        [
+            "shy",
+            [
+                "stood in the doorway diffident and abashed"
+            ]
+        ]
+    ],
+    [
+        [
+            "secure",
+            [
+                "he was secure that nothing will be held against him"
+            ]
+        ],
+        [
+            "insecure",
+            [
+                "an insecure person lacking mental stability"
+            ]
+        ]
+    ],
+    [
+        [
+            "active",
+            [
+                "a director who takes an active interest in corporate operations"
+            ]
+        ],
+        [
+            "inactive",
+            [
+                "Much benevolence of the passive order may be traced to a disinclination to inflict pain upon oneself"
+            ]
+        ]
+    ],
+    [
+        [
+            "active",
+            [
+                "an active toddler"
+            ]
+        ],
+        [
+            "inactive",
+            [
+                "illness forced him to live an inactive life"
+            ]
+        ]
+    ],
+    [
+        [
+            "independent",
+            [
+                "an independent mind"
+            ]
+        ],
+        [
+            "dependent",
+            [
+                "dependent children"
+            ]
+        ]
+    ],
+    [
+        [
+            "energetic",
+            [
+                "an energetic fund raiser for the college"
+            ]
+        ],
+        [
+            "lethargic",
+            [
+                "bullfrogs became lethargic with the first cold nights"
+            ]
+        ]
+    ],
+    [
+        [
+            "ambitious",
+            [
+                "a ruthlessly ambitious workaholic"
+            ]
+        ],
+        [
+            "unambitious",
+            [
+                "he was an unambitious man"
+            ]
+        ]
+    ],
+    [
+        [
+            "dedicated",
+            [
+                "a dedicated dancer"
+            ]
+        ],
+        [
+            "undedicated",
+            [
+                "the playground has been completed but is still undedicated"
+            ]
+        ]
+    ],
+    [
+        [
+            "motivated",
+            [
+                "a highly motivated child can learn almost anything"
+            ]
+        ],
+        [
+            "unmotivated",
+            [
+                "unmotivated, poorly taught children"
+            ]
+        ]
+    ],
+    [
+        [
+            "rich",
+            [
+                "her father is extremely rich"
+            ]
+        ],
+        [
+            "poor",
+            [
+                "deplored the gap between rich and poor countries"
+            ]
+        ]
+    ],
+    [
+        [
+            "powerful",
+            [
+                "the most powerful government in western Europe"
+            ]
+        ],
+        [
+            "powerless",
+            [
+                "troops were powerless to stop last night's shooting"
+            ]
+        ]
+    ],
+    [
+        [
+            "superior",
+            [
+                "a superior ruler"
+            ]
+        ],
+        [
+            "inferior",
+            [
+                "schooling in inner-city areas was inferior to that in the rest of the country"
+            ]
+        ]
+    ],
+    [
+        [
+            "influential",
+            [
+                "an influential newspaper"
+            ]
+        ],
+        [
+            "uninfluential",
+            [
+                "the country became a regular if uninfluential participant"
+            ]
+        ]
+    ],
+    [
+        [
+            "successful",
+            [
+                "a successful architect"
+            ]
+        ],
+        [
+            "unsuccessful",
+            [
+                "an unsuccessful attempt to enter Parliament"
+            ]
+        ]
+    ],
+    [
+        [
+            "conventional",
+            [
+                "conventional wisdom"
+            ]
+        ],
+        [
+            "unconventional",
+            [
+                "her unconventional dress and hair style"
+            ]
+        ]
+    ],
+    [
+        [
+            "conventional",
+            [
+                "conventional bourgeois lives"
+            ]
+        ],
+        [
+            "unconventional",
+            [
+                "unconventional life styles"
+            ]
+        ]
+    ],
+    [
+        [
+            "conservative",
+            [
+                "they were very conservative in their outlook"
+            ]
+        ],
+        [
+            "liberal",
+            [
+                "they have liberal views on divorce"
             ]
         ]
     ]
