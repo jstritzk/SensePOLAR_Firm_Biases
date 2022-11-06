@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 64,1.6251924,clever,incompetent,1.4439508,-0.18124163,"('clever', 'incompetent')"
 76,1.5753562,secure,insecure,1.4290757,-0.14628053,"('secure', 'insecure')"
 100,1.4081874,influential,uninfluential,1.4041369,-0.0040504932,"('influential', 'uninfluential')"

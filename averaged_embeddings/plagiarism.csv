@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 30,3.2536802,honest,dishonest,3.2098887,-0.043791533,"('honest', 'dishonest')"
 17,3.0403242,social,antisocial,3.046435,0.0061109066,"('social', 'antisocial')"
 51,2.7054446,competent,incompetent,2.7020555,-0.00338912,"('competent', 'incompetent')"

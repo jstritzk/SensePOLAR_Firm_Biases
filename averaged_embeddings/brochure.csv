@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 102,-2.266971,eminent,low,-1.9944482,0.27252293,"('eminent', 'low')"
 37,1.8835528,good,evil,1.9783561,0.09480333,"('good', 'evil')"
 13,-1.8140022,helpful,unhelpful,-1.9694588,-0.15545666,"('helpful', 'unhelpful')"

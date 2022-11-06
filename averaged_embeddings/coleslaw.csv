@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 16,2.318729,social,antisocial,2.6484172,0.3296883,"('social', 'antisocial')"
 94,1.9757568,aggressive,submissive,2.2689517,0.2931949,"('aggressive', 'submissive')"
 2,1.8660694,friendly,unfriendly,1.9823043,0.1162349,"('friendly', 'unfriendly')"

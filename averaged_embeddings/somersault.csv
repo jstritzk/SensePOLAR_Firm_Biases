@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 71,1.7574674,efficient,inefficient,1.5799961,-0.17747128,"('efficient', 'inefficient')"
 41,-1.6293149,incorrupt,corrupt,-1.8612976,-0.23198271,"('incorrupt', 'corrupt')"
 81,-1.5708728,industrious,lazy,-2.1686225,-0.5977497,"('industrious', 'lazy')"

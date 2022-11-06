@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 46,1.531446,generous,stingy,1.650143,0.11869705,"('generous', 'stingy')"
 67,-1.3950809,discriminating,undiscriminating,-1.3316516,0.063429356,"('discriminating', 'undiscriminating')"
 90,1.222363,motivated,unmotivated,1.0318283,-0.19053471,"('motivated', 'unmotivated')"

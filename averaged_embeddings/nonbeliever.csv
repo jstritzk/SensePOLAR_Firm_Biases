@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 2,2.8963397,friendly,unfriendly,3.2752824,0.37894273,"('friendly', 'unfriendly')"
 55,2.5953033,intelligent,unintelligent,2.4713933,-0.12390995,"('intelligent', 'unintelligent')"
 41,-2.390696,incorrupt,corrupt,-2.7603018,-0.36960578,"('incorrupt', 'corrupt')"

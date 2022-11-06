@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 95,-2.0565739,rich,poor,-1.6348565,0.4217174,"('rich', 'poor')"
 23,1.8770508,hospitable,inhospitable,1.827288,-0.049762726,"('hospitable', 'inhospitable')"
 53,-1.7918584,smart,stupid,-1.7830002,0.008858204,"('smart', 'stupid')"

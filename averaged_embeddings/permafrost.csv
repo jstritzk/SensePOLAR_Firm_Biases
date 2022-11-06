@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 23,2.3303568,hospitable,inhospitable,2.228346,-0.10201073,"('hospitable', 'inhospitable')"
 12,2.2886171,sympathetic,unsympathetic,2.498871,0.21025395,"('sympathetic', 'unsympathetic')"
 90,2.2876418,motivated,unmotivated,2.2510955,-0.03654623,"('motivated', 'unmotivated')"

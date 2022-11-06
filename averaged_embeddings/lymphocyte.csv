@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 99,-3.1164443,prestigious,insignificant,-3.1224282,-0.0059838295,"('prestigious', 'insignificant')"
 83,2.9695094,energetic,lethargic,3.0863447,0.116835356,"('energetic', 'lethargic')"
 76,2.7920353,secure,insecure,2.9183102,0.12627482,"('secure', 'insecure')"

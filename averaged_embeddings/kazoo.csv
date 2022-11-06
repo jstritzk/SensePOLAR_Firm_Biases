@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 77,1.7969452,active,inactive,1.6355044,-0.16144085,"('active', 'inactive')"
 19,-1.7946888,funny,boring,-1.7426726,0.05201626,"('funny', 'boring')"
 12,1.6441832,sympathetic,unsympathetic,1.8591857,0.21500254,"('sympathetic', 'unsympathetic')"

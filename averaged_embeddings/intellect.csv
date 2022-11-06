@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 75,6.3017006,confident,shy,5.695676,-0.60602474,"('confident', 'shy')"
 27,-5.5880337,sincere,insincere,-4.961547,0.6264868,"('sincere', 'insincere')"
 40,-4.995929,honorable,mean,-4.9099445,0.08598423,"('honorable', 'mean')"

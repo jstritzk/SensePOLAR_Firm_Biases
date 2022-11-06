@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 65,-2.976422,practical,impractical,-2.964814,0.011608124,"('practical', 'impractical')"
 39,-2.9074156,right,wrong,-3.1291876,-0.22177196,"('right', 'wrong')"
 72,-2.8026085,logical,illogical,-2.6779013,0.12470722,"('logical', 'illogical')"

@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 37,2.4183931,good,evil,2.4833694,0.064976215,"('good', 'evil')"
 54,1.8981286,smart,stupid,1.6390426,-0.259086,"('smart', 'stupid')"
 8,1.8765101,open,distant,1.672263,-0.20424712,"('open', 'distant')"

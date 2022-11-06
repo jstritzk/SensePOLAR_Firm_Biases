@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 8,2.7303858,open,distant,2.3159914,-0.41439438,"('open', 'distant')"
 65,-2.4353595,practical,impractical,-2.1817455,0.25361395,"('practical', 'impractical')"
 37,2.1758897,good,evil,1.8564901,-0.3193996,"('good', 'evil')"

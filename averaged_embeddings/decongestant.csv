@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 100,2.3357546,influential,uninfluential,2.3436496,0.007894993,"('influential', 'uninfluential')"
 0,2.0095077,sociable,unsociable,1.9898382,-0.019669414,"('sociable', 'unsociable')"
 78,1.7803105,active,inactive,1.25386,-0.5264505,"('active', 'inactive')"

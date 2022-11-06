@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 6,2.4736934,liked,disliked,2.1155872,-0.35810614,"('liked', 'disliked')"
 27,-2.3819919,sincere,insincere,-2.1295152,0.2524767,"('sincere', 'insincere')"
 42,2.1043572,amicable,hostile,1.925142,-0.1792152,"('amicable', 'hostile')"

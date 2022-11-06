@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 10,-2.4807255,affectionate,unaffectionate,-2.265012,0.2157135,"('affectionate', 'unaffectionate')"
 86,2.3166373,self-reliant,helpless,2.3734207,0.056783438,"('self-reliant', 'helpless')"
 75,2.2965436,confident,shy,2.2554197,-0.041123867,"('confident', 'shy')"

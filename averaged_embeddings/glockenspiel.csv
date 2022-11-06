@@ -1,4 +1,4 @@
-,Value 1,0,1,Value 2,female-male,tuple
+,average_male,0,1,average_female,female-male,tuple
 12,2.5765495,sympathetic,unsympathetic,2.6683073,0.091757774,"('sympathetic', 'unsympathetic')"
 76,2.4338446,secure,insecure,2.4003572,-0.03348732,"('secure', 'insecure')"
 2,2.3733778,friendly,unfriendly,2.4815004,0.10812259,"('friendly', 'unfriendly')"
