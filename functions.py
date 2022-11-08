@@ -7,6 +7,8 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings("ignore")
 
+import math
+
 from sklearn.metrics.pairwise import cosine_similarity
 
 from transformers import logging
@@ -105,53 +107,15 @@ def check_significance(p_value):
 
 
 
-def get_dimension_distribution(considered_companies, antonym_pair, nouns_sample): 
+def get_dimension_distribution(considered_companies, antonym_pair, nouns_sample, path): 
     
-    result = pd.DataFrame()
-    result["companies"] = considered_companies
-    result["value_male"] = 0
-    result["value_female"] = 0
-    result["difference"] = 0
-
-    for company in considered_companies: 
-        
-
-        comparison = pd.read_csv(f"./averaged_embeddings/{company}.csv")
-        #comparison["tuple"] = list(zip(comparison["0"], comparison["1"]))
-        comparison = comparison.groupby("tuple", as_index = False).mean() # Account for duplicates. 
-
-        value_male = float(comparison[comparison["tuple"] == antonym_pair]["average_male"])
-
-        value_female = float(comparison[comparison["tuple"] == antonym_pair]["average_female"])
-        difference = value_female - value_male
-
-        result["value_male"].loc[result["companies"] == company] = value_male
-        result["value_female"].loc[result["companies"] == company] = value_female
-        result["difference"].loc[result["companies"] == company] = difference
-
-        
-    rand_result = pd.DataFrame()
-    rand_result["nouns"] = nouns_sample
-    rand_result["rand_value_male"] = 0
-    rand_result["rand_value_female"] = 0
-    rand_result["rand_difference"] = 0
+    result = read_embedding_values(considered_companies, antonym_pair, path)
+    rand_result = read_embedding_values(nouns_sample, antonym_pair, path)
     
-    for noun in nouns_sample: 
-        rand_comparison = pd.read_csv(f"./averaged_embeddings/{noun}.csv")
-        #rand_comparison["tuple"] = list(zip(rand_comparison["0"], rand_comparison["1"]))
-        rand_comparison = rand_comparison.groupby("tuple", as_index = False).mean() # Account for duplicates. 
-        rand_value_male = float(rand_comparison[rand_comparison["tuple"] == antonym_pair]["Value 1"])
-        rand_value_female = float(rand_comparison[rand_comparison["tuple"] == antonym_pair]["Value 2"])
-        rand_difference = rand_value_female - rand_value_male
-        
-        rand_result["rand_value_male"].loc[rand_result["nouns"] == noun] = rand_value_male
-        rand_result["rand_value_female"].loc[rand_result["nouns"] == noun] = rand_value_female
-        rand_result["rand_difference"].loc[rand_result["nouns"] == noun] = rand_difference
+
+    fig = plt.figure(constrained_layout=True, figsize=(12, 6))
     
-    
-    fig = plt.figure(constrained_layout=True, figsize=(12, 8))
-    
-    gs = GridSpec(4, 2, figure=fig)
+    gs = GridSpec(2, 1, figure=fig)
     fig.suptitle(f"Distributions for {str(antonym_pair)}", weight="bold")
 
     # Plot male and female distribution 
@@ -160,94 +124,102 @@ def get_dimension_distribution(considered_companies, antonym_pair, nouns_sample)
     ax1.set_title(f"Male vs. Female Firm Distribution ({check_significance(p_value)}, p-value = {round(p_value, 5)})", fontsize=9)
     sns.distplot(result["value_male"], ax = ax1, label = "Male Context", color = '#3AA8F3')
     sns.distplot(result["value_female"], ax = ax1, label = "Female Context", color = 'fuchsia')
-    plt.legend()
-    
-    # Plot male distribution 
-    stat, p_value = ttest_ind(result["value_male"], rand_result["rand_value_male"])
-    ax2 = fig.add_subplot(gs[1, 0])
-    ax2.set_title(f"Male vs. Random Male Distribution ({check_significance(p_value)}, p-value = {round(p_value, 5)})", fontsize=9)
-    sns.distplot(result["value_male"], ax = ax2, label = "Male Firm Context", color = '#3AA8F3')
-    sns.distplot(rand_result["rand_value_male"], ax = ax2, label = "Male Random Context", color = 'grey')
-    plt.legend()
-    
-    # Plot female distribution 
-    stat, p_value = ttest_ind(result["value_female"], rand_result["rand_value_female"])
-    ax3 = fig.add_subplot(gs[1, 1])
-    ax3.set_title(f"Female vs. Random Female Distribution ({check_significance(p_value)}, p-value = {round(p_value, 5)})", fontsize=9)
-    sns.distplot(result["value_female"], ax = ax3, label = "Female Firm Context", color = 'fuchsia')
-    sns.distplot(rand_result["rand_value_female"], ax = ax3, label = "Female Random Context", color = "grey")
-    plt.legend()   
+    plt.axvline(0, color = "black", ls = "--")
+    plt.axvline(result["value_male"].mean(), color = "#3AA8F3")
+    plt.axvline(result["value_female"].mean(), color = "fuchsia")
+    plt.legend() 
     
     # Plot difference
-    stat, p_value = ttest_ind(result["difference"], rand_result["rand_difference"])
-    ax4 = fig.add_subplot(gs[2, :])
+    stat, p_value = ttest_ind(result["difference"], rand_result["difference"])
+    ax4 = fig.add_subplot(gs[1, :])
     ax4.set_title(f"Corporate vs. Random Difference ({check_significance(p_value)}, p-value = {round(p_value, 5)})", fontsize=9)
     sns.distplot(result["difference"], ax = ax4, label = "Firm difference", color = "cyan")
-    sns.distplot(rand_result["rand_difference"], ax = ax4, label = "random difference", color = "grey")
-    plt.axvline(0, color = "grey")
+    sns.distplot(rand_result["difference"], ax = ax4, label = "random difference", color = "grey")
+    plt.axvline(0, color = "black", ls = "--")
+    plt.axvline(rand_result["difference"].mean(), color = "grey")
+    plt.axvline(result["difference"].mean(), color = "cyan")
     plt.legend()
     
-    # Plot male and female distribution 
-    stat, p_value = ttest_ind(rand_result["rand_value_male"], rand_result["rand_value_female"])
-    ax5 = fig.add_subplot(gs[3, :])
-    ax5.set_title(f"Random Male vs. Female Firm Distribution ({check_significance(p_value)}, p-value = {round(p_value, 5)})", fontsize=9)
-    sns.distplot(rand_result["rand_value_male"], ax = ax5, label = "Male Random Context", color = '#3AA8F3')
-    sns.distplot(rand_result["rand_value_female"], ax = ax5, label = "Female Random Context", color = 'fuchsia')
-    plt.legend()
-
-    plt.savefig(f'{antonym_pair}.png', bbox_inches = "tight")
+    plt.savefig(f'./distribution_plots/{antonym_pair}.png', bbox_inches = "tight")
 
 
 
-def get_dimension_pvalues(considered_companies, antonym_pair, nouns_sample): 
+def get_dimension_pvalues(considered_companies, antonym_pair, nouns_sample, path): 
+    
+    result = read_embedding_values(considered_companies, antonym_pair, path)
+    rand_result = read_embedding_values(nouns_sample, antonym_pair, path)
+    
+    stat1, p_value1 = ttest_ind(result["value_male"], result["value_female"])
+    stat2, p_value2 = ttest_ind(result["difference"], rand_result["difference"])
+    
+    res1 = round(p_value1, 5)
+    res2 = round(p_value2, 5)
+    
+    return [res1, res2]
+
+
+
+
+def read_embedding_values(embedding_names, antonym_pair, path): 
     
     result = pd.DataFrame()
-    result["companies"] = considered_companies
+    result["companies"] = embedding_names
     result["value_male"] = 0
     result["value_female"] = 0
     result["difference"] = 0
 
-    for company in considered_companies: 
-        comparison = pd.read_csv(f"./averaged_embeddings/{company}.csv")
-        #comparison["tuple"] = list(zip(comparison["0"], comparison["1"]))
-        comparison = comparison.groupby("tuple", as_index = False).mean() # Account for duplicates. 
-        
+    for embedding in embedding_names: 
+        comparison = pd.read_csv(f"{path}{embedding}.csv")
+
+        comparison = comparison.groupby("tuple", as_index = False).mean() # Account for duplicates.         
         value_male = float(comparison[comparison["tuple"] == antonym_pair]["average_male"])
         value_female = float(comparison[comparison["tuple"] == antonym_pair]["average_female"])
         difference = value_female - value_male
+        result["value_male"].loc[result["companies"] == embedding] = value_male
+        result["value_female"].loc[result["companies"] == embedding] = value_female
+        result["difference"].loc[result["companies"] == embedding] = difference
+    
+    return result    
+
+
+
+def round_decimals_up(number:float, decimals:int=2):
+    """
+    Returns a value rounded up to a specific number of decimal places.
+    """
+    if not isinstance(decimals, int):
+        raise TypeError("decimal places must be an integer")
+    elif decimals < 0:
+        raise ValueError("decimal places has to be 0 or more")
+    elif decimals == 0:
+        return math.ceil(number)
+
+    factor = 10 ** decimals
+    return math.ceil(number * factor) / factor
+
+
+
+
+
+
+
+def get_average_embedding(target_list, context): 
+    
+    for entry in target_list: 
         
-        result["value_male"].loc[result["companies"] == company] = value_male
-        result["value_female"].loc[result["companies"] == company] = value_female
-        result["difference"].loc[result["companies"] == company] = difference
-    
-    rand_result = pd.DataFrame()
-    rand_result["nouns"] = nouns_sample
-    rand_result["rand_value_male"] = 0
-    rand_result["rand_value_female"] = 0
-    rand_result["rand_difference"] = 0
-    
-    for noun in nouns_sample: 
-        rand_comparison = pd.read_csv(f"./averaged_embeddings/{noun}.csv")
-        #rand_comparison["tuple"] = list(zip(rand_comparison["0"], rand_comparison["1"]))
-        rand_comparison = rand_comparison.groupby("tuple", as_index = False).mean() # Account for duplicates. 
-        rand_value_male = float(rand_comparison[rand_comparison["tuple"] == antonym_pair]["Value 1"])
-        rand_value_female = float(rand_comparison[rand_comparison["tuple"] == antonym_pair]["Value 2"])
-        rand_difference = rand_value_female - rand_value_male
+        names = entry.split(" ")
         
-        rand_result["rand_value_male"].loc[rand_result["nouns"] == noun] = rand_value_male
-        rand_result["rand_value_female"].loc[rand_result["nouns"] == noun] = rand_value_female
-        rand_result["rand_difference"].loc[rand_result["nouns"] == noun] = rand_difference
-    
-    stat1, p_value1 = ttest_ind(result["value_male"], result["value_female"])
-    stat2, p_value2 = ttest_ind(result["value_male"], rand_result["rand_value_male"])
-    stat3, p_value3 = ttest_ind(result["value_female"], rand_result["rand_value_female"])
-    stat4, p_value4 = ttest_ind(result["difference"], rand_result["rand_difference"])
-    stat5, p_value5 = ttest_ind(rand_result["rand_value_male"], rand_result["rand_value_female"])
-    
-    res1 = round(p_value1, 5)
-    res2 = round(p_value2, 5)
-    res3 = round(p_value3, 5)
-    res4 = round(p_value4, 5)
-    res5 = round(p_value5, 5)
-    
-    return [res1, res2, res3, res4, res5]
+        # Get contextual embedding for each part of the name.  
+        embeddings = pd.DataFrame()
+        for name in names: 
+            embeddings[[f"{name}_male", f"{name}_female", "tuple"]] = get_firm_embeddings(name, context, 111, "all")[["Value 1", "Value 2", "tuple"]]
+
+        # Take average of different name parts. 
+        embeddings["average_male"] = embeddings.loc[:, embeddings.columns.str.endswith('_male')].mean(axis=1).round(7)
+        embeddings["average_female"] = embeddings.loc[:, embeddings.columns.str.endswith('_female')].mean(axis=1).round(7)
+
+        # Calculate delta / bias. 
+        embeddings["female-male"] = (embeddings["average_female"] - embeddings["average_male"]).round(7)
+
+        # Store for faster import later. 
+        embeddings.to_csv(f"./averaged_embeddings/{entry}.csv")
